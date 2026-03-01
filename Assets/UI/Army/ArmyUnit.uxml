@@ -1,0 +1,15 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/ArmyUnitStyle.uss?fileID=7433441132597879392&amp;guid=b1594d39d035e54438c70282bc4b89f5&amp;type=3#ArmyUnitStyle" />
+    <ui:VisualElement style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement name="SwordIcon" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/Textures/sword-svgrepo-com%20(1).svg?fileID=6192944022281365145&amp;guid=76e94e5a3a64806499941eaee46b1e40&amp;type=3#sword-svgrepo-com (1)&quot;); width: 21px; -unity-background-image-tint-color: rgb(255, 76, 76); padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 3px; margin-right: 3px; margin-bottom: 3px; margin-left: 3px; display: none;" />
+        <ui:Button selectable="true" enabled="true" focusable="true" name="Button" class="unit">
+            <ui:VisualElement name="MoraleBar" style="flex-grow: 0; flex-direction: row; background-color: rgb(112, 134, 200); width: 4px; margin-top: 2px; margin-right: 2px; margin-bottom: 2px; margin-left: 2px;">
+                <ui:VisualElement name="CounterFill" style="flex-grow: 0; flex-direction: row; background-color: rgb(32, 36, 41); width: 4px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; height: 0%;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="SupplyBar" style="flex-grow: 0; flex-direction: row; background-color: rgb(192, 119, 52); width: 4px; margin-top: 2px; margin-right: 0; margin-bottom: 2px; margin-left: 0;">
+                <ui:VisualElement name="CounterFill" style="flex-grow: 0; flex-direction: row; background-color: rgb(79, 61, 45); width: 4px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; height: 0%;" />
+            </ui:VisualElement>
+            <ui:Label text="12.2k" name="SizeLabel" style="-unity-font-style: bold; flex-grow: 1; margin-top: 2px; margin-right: 2px; margin-bottom: 2px; margin-left: 2px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; background-color: rgb(38, 38, 38); color: rgb(255, 255, 255);" />
+        </ui:Button>
+    </ui:VisualElement>
+</ui:UXML>

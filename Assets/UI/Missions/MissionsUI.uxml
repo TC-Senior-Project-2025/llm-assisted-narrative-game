@@ -1,0 +1,22 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/StandardStyle.uss?fileID=7433441132597879392&amp;guid=96c830d546033024a9981dc4e32e716f&amp;type=3#StandardStyle" />
+    <ui:VisualElement picking-mode="Ignore" style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:VisualElement name="MissionsPanel" class="panel" style="flex-grow: 0; height: auto; width: 309px; padding-top: 12px; padding-right: 12px; padding-bottom: 12px; padding-left: 12px; visibility: visible;">
+            <ui:VisualElement style="flex-grow: 0; border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: auto; height: auto; align-self: auto; flex-direction: row-reverse; align-content: auto; align-items: stretch; margin-top: 0; margin-bottom: 5px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-right: 0; margin-left: 0;">
+                <ui:Button text="X" name="CloseButton" style="width: 16px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-text-align: middle-center; font-size: 10px; -unity-font-style: bold; height: 16px;" />
+                <ui:Label text="Mission" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-font-style: bold; font-size: 10px; color: rgb(255, 255, 255); flex-grow: 1; -unity-text-align: middle-left; height: 16px;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1;">
+                <ui:VisualElement style="flex-grow: 1; flex-direction: row;">
+                    <ui:Label text="Remaining mission points" style="color: rgb(131, 206, 255); font-size: 12px; -unity-font-style: bold; flex-grow: 1;" />
+                    <ui:Label text="0" name="MissionPointsLabel" style="color: rgb(131, 206, 255); font-size: 12px; -unity-font-style: bold; flex-grow: 1; -unity-text-align: upper-right;" />
+                </ui:VisualElement>
+                <ui:TextField placeholder-text="Enter mission name" name="MissionNameField" multiline="false" vertical-scroller-visibility="Auto" max-length="64" style="height: auto; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; font-size: 12px; white-space: normal; flex-grow: 1;" />
+                <ui:TextField placeholder-text="Enter mission details here (max 512 characters)" name="MissionDetailsField" multiline="true" vertical-scroller-visibility="Auto" max-length="512" style="height: 100px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; font-size: 12px; white-space: normal; flex-grow: 1;" />
+                <ui:Label text="Who shall carry out the mission?" style="color: rgb(173, 173, 173); font-size: 12px;" />
+                <ui:DropdownField label="Dropdown" choices="abcdefg,aaa,aaaaaa,aaaa" name="PersonDropdown" style="height: 24px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                <ui:Button text="Execute mission" name="ExecuteMissionButton" style="height: 22px; margin-top: 5px; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; font-size: 12px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

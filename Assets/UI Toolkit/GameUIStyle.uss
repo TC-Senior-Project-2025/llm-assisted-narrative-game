@@ -1,0 +1,72 @@
+:root {
+}
+
+.resource {
+    margin-left: 0;
+    background-size: 100% 100%;
+    background-color: rgb(82, 82, 82);
+    flex-direction: row;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: auto;
+    height: 20px;
+    font-size: 12px;
+    margin-top: 0;
+    margin-right: 3px;
+    margin-bottom: 0;
+}
+
+.option-button {
+    height: 24px;
+}
+
+.event-panel {
+    transition-property: translate;
+    transition-duration: 0.5s;
+    translate: 0 0;
+}
+
+.country-button {
+    -unity-font-style: bold;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    margin-top: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    background-color: rgb(149, 70, 70);
+    color: rgb(255, 255, 255);
+    border-left-color: rgb(128, 52, 52);
+    border-right-color: rgb(128, 52, 52);
+    border-top-color: rgb(128, 52, 52);
+    border-bottom-color: rgb(128, 52, 52);
+    transition-duration: 0.1s;
+}
+
+.country-button:hover {
+    -unity-font-style: bold;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    margin-top: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    background-color: rgb(173, 89, 89);
+    color: rgb(255, 255, 255);
+    border-left-color: rgb(209, 159, 159);
+    border-right-color: rgb(209, 159, 159);
+    border-top-color: rgb(209, 159, 159);
+    border-bottom-color: rgb(209, 159, 159);
+}
+
+.resource-label {
+    color: rgb(255, 255, 255);
+    transition-duration: 0s;
+    transition-property: none;
+}

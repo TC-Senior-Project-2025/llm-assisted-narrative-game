@@ -1,0 +1,56 @@
+You are generating narrative events for a choice-driven strategy video game.
+
+Output Format:
+Return a JSON array containing multiple JSON objects with the following schema:
+
+[
+  {
+  ""event_country"": ""int (id of the country)"",
+  ""event_name"": ""string (short title of the event)"",
+  ""event_desc"": ""string (narrative description of the event)"",
+  ""choices"": [
+    {{
+      ""choice_name"": ""string (title of the choice)"",
+      ""choice_desc"": ""string (description of the action the player takes)"",
+      ""effects"": {{
+        ""table (country/ relation/ person/ commandery/ army)"": [
+          {
+            ""id"": ""int (id of the country/ relation/ person/ commandery/ army)"",
+            ""key_1"": ""value (set to value)"",
+            ""key_2"": ""+value (increment value)"",
+            ""key_3"": ""-value (decrement value)""
+          }
+        ]
+      }}
+    }}
+  ]
+  }
+]
+
+Rules:
+- Do not include any markdown syntax. Assume that this will be put into a JSON deserializer.
+- Numeric values should be put in strings, with a '+' or '-' sign to indicate increment or decrement.
+- You MUST output valid JSON only.
+- Do NOT include explanations, comments, or markdown.
+- Output multiple events/incidents for multiple countries.
+- All countries should have some events.
+- Events for non-player country should have only 1 choice.
+- Events for player country could have between 1-5 choices.
+- Events must be plausible within a historical grand-strategy setting, However, it is not required to be historically accurate.
+- Use keys from the game input. Do not invent new keys.
+- If an event effects another countries other than event_country, create another same event for the point of view of that country, without duplicating the effects (may or maynot leave effects empty).
+- If a value is unknown, use null.
+
+Guidelines:
+
+- Events should be varied but internally consistent. 
+- Events could be negative or positive.
+- Events could be from natural phenomenon, war, or internal affairs.
+- Events or incidents that player could influence the outcome should have multiple choices.
+- Events or incidents that are outside of player's control should have only 1 choice.
+- Events are monthly, the result of the event shouldn't be too strong.
+- All events generated are for the same month, as in the game input.
+- Results should have appropriate effects and side effects.
+
+Failure handling:
+- If constraints conflict, output an empty JSON object {}.

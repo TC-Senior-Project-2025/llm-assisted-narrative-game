@@ -1,0 +1,6 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="PersonStat" style="flex-grow: 1; flex-direction: row; padding-right: 5px; padding-top: 0; padding-bottom: 0; padding-left: 0; margin-top: 2px; margin-bottom: 2px;">
+        <ui:Label text="- Label" name="StatName" style="color: rgb(255, 255, 255); flex-grow: 1; font-size: 9px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-text-align: middle-left;" />
+        <ui:Label text="0" name="StatValue" style="color: rgb(255, 255, 255); font-size: 9px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; -unity-text-align: middle-left;" />
+    </ui:VisualElement>
+</ui:UXML>

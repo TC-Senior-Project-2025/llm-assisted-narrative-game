@@ -1,0 +1,6 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Button style="flex-grow: 1; flex-direction: column; font-size: 12px; -unity-font-style: bold; -unity-text-align: middle-left; padding-top: 7px; padding-right: 7px; padding-bottom: 7px; padding-left: 7px;">
+        <ui:Label text="Mission Name" name="NameLabel" style="-unity-text-align: upper-left; flex-grow: 0; font-size: 12px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(0, 0, 0); -unity-font-style: bold; white-space: pre-wrap;" />
+        <ui:Label text="Firstname Lastname" name="RoleLabel" style="-unity-text-align: upper-left; flex-grow: 0; font-size: 11px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(96, 96, 96); -unity-font-style: normal; white-space: pre-wrap;" />
+    </ui:Button>
+</ui:UXML>

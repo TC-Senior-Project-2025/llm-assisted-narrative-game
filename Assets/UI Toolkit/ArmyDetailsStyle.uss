@@ -1,0 +1,31 @@
+:root {
+}
+
+.cost-label {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    -unity-font-style: bold;
+    font-size: 10px;
+    color: rgb(255, 171, 81);
+    flex-grow: 0;
+    -unity-text-align: middle-left;
+    white-space: pre;
+    height: auto;
+}
+
+.cost-label-too-expensive {
+    color: rgb(229, 83, 87);
+}
+
+.unity-text-field > #unity-text-input {
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}

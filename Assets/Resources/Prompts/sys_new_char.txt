@@ -1,0 +1,44 @@
+You are generating new characters for a choice-driven strategy video game.
+
+Output Format:
+Return multiple JSON objects with the following schema:
+
+{
+      "country_id": "int (id of the country)",
+      "name": "string (name of the character)",
+      "role": "string (role of the character)",
+      "age": int (age of the character),
+      "is_alive": true,
+      "loyalty": int (loyalty of the character),
+      "stats": {
+        "stat_1": int,
+        "stat_2": int,
+        "stat_3": int
+      },
+      "history": "string (Brief history/ character background of the character)"
+}
+
+Rules:
+- You MUST output valid JSON only. Assume this will be put into a JSON serializer in C#.
+- Do NOT include explanations, comments, or markdown.
+- Output multiple characters for multiple countries. 
+- Output multiple characters to countries with less characters.
+- Characters should be realistic within a historical grand-strategy setting. However, it is not required to be real historical characters.
+- Do not create person id.
+- Do not create new kings.
+- Do not create duplicate characters from what is already in the input.
+- If a value is unknown, use null.
+
+Guidelines:
+- Characters should be varied but internally consistent.
+- Characters roles could be anything, as long as it is consistent with the game.
+- characters could be any gender, as long as the role is consistent.
+- If the character is of a royal family, the family name should be consistent with the others.
+- Characters loyalty should be between 0 and 100.
+- character should have base military stats: morale, field offense, field defense, siege offense, siege defense.
+- Characters could have any amount of additional stats.
+- Characters additional stats could be anything, as long as it is a human trait.
+- Characters history should not be longer than 50 words.
+
+Failure handling:
+- If constraints conflict, output an empty JSON object {}.

@@ -1,0 +1,86 @@
+:root {
+}
+
+.unit {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    flex-grow: 1;
+    flex-direction: row;
+    background-color: rgb(53, 103, 12);
+    border-left-color: rgb(31, 75, 26);
+    border-right-color: rgb(31, 75, 26);
+    border-top-color: rgb(31, 75, 26);
+    border-bottom-color: rgb(31, 75, 26);
+}
+
+.unit:hover {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    flex-grow: 1;
+    flex-direction: row;
+    border-left-color: rgb(132, 168, 128);
+    border-right-color: rgb(132, 168, 128);
+    border-top-color: rgb(132, 168, 128);
+    border-bottom-color: rgb(132, 168, 128);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+}
+
+.unit:focus {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    flex-grow: 1;
+    flex-direction: row;
+    border-left-color: rgb(132, 168, 128);
+    border-right-color: rgb(132, 168, 128);
+    border-top-color: rgb(132, 168, 128);
+    border-bottom-color: rgb(132, 168, 128);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+}
+
+.unit-neutral {
+    background-color: rgb(130, 130, 130);
+    border-left-color: rgb(82, 82, 82);
+    border-right-color: rgb(82, 82, 82);
+    border-top-color: rgb(82, 82, 82);
+    border-bottom-color: rgb(82, 82, 82);
+}
+
+.unit-enemy {
+    border-left-color: rgb(132, 69, 69);
+    border-right-color: rgb(132, 69, 69);
+    border-top-color: rgb(132, 69, 69);
+    border-bottom-color: rgb(132, 69, 69);
+    background-color: rgb(180, 88, 88);
+}
+
+.unit-ally {
+    border-left-color: rgb(63, 109, 149);
+    border-right-color: rgb(63, 109, 149);
+    border-top-color: rgb(63, 109, 149);
+    border-bottom-color: rgb(63, 109, 149);
+    background-color: rgb(54, 101, 135);
+}

@@ -1,0 +1,33 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/SaveGameStyle.uss?fileID=7433441132597879392&amp;guid=f647419c0e15ecb4f89a0f5e51371ced&amp;type=3#SaveGameStyle" />
+    <Style src="project://database/Assets/UI%20Toolkit/StandardStyle.uss?fileID=7433441132597879392&amp;guid=96c830d546033024a9981dc4e32e716f&amp;type=3#StandardStyle" />
+    <ui:VisualElement name="Main" style="flex-grow: 1; margin-top: 110px; margin-right: 110px; margin-bottom: 110px; margin-left: 110px;">
+        <ui:VisualElement name="TopRow" class="parent" style="flex-wrap: wrap; flex-direction: row; align-items: flex-start; align-self: flex-start; align-content: flex-start; flex-grow: initial;">
+            <ui:Label text="Saves" style="-unity-font-style: bold; font-size: 20px; color: rgb(255, 255, 255); width: auto; flex-grow: 1;" />
+            <ui:Button text="Delete" name="SelectButton" style="background-color: rgb(200, 84, 84); color: rgb(255, 255, 255); display: none;" />
+            <ui:Button text="New" name="CreateNewSaveButton" style="display: none;" />
+            <ui:Button text="Refresh" name="RefreshButton" style="display: none;" />
+            <ui:Button text="Set API key" name="SetApiKeyButton" style="display: flex;" />
+        </ui:VisualElement>
+        <ui:ListView name="SaveList" data-source-type="SaveMenu, Assembly-CSharp" horizontal-scrolling="false" show-border="false" virtualization-method="DynamicHeight" item-template="project://database/Assets/UI/SaveItem.uxml?fileID=9197481963319205126&amp;guid=92f07e38cabf9804696b3ed61d890910&amp;type=3#SaveItem" style="height: auto; flex-grow: 1;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Modal" enabled="true" style="flex-grow: 1; position: absolute; height: 100%; width: 100%; background-color: rgba(0, 0, 0, 0.57); align-items: center; justify-content: center; visibility: hidden;">
+        <ui:VisualElement name="NewGamePanel" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0.51); width: 446px; height: 125px; flex-shrink: 0; padding-top: 10px; padding-right: 18px; padding-bottom: 10px; padding-left: 18px; display: none; visibility: visible;">
+            <ui:Label text="Create new game" style="color: rgb(255, 255, 255); -unity-font-style: bold;" />
+            <ui:TextField label="Name" placeholder-text="Save name" hide-placeholder-on-focus="false" readonly="false" is-delayed="false" select-all-on-mouse-up="false" hide-mobile-input="false" auto-correction="false" max-length="50" value="zzzzzzzzzzz" name="SaveNameTextField" style="color: rgb(255, 255, 255); align-items: center;" />
+            <ui:VisualElement style="flex-grow: 1; flex-direction: row; justify-content: flex-end;">
+                <ui:Button text="Back" name="CloseCreateButton" style="width: 90px;" />
+                <ui:Button text="Create" name="ConfirmCreateButton" class="blue-button" style="width: 90px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="SetApiKeyPanel" class="panel" style="visibility: visible; width: 461px; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; display: none;">
+            <ui:Label text="Set API key (OpenRouter)" style="color: rgb(255, 255, 255); -unity-font-style: bold;" />
+            <ui:TextField label="API Key" placeholder-text="Save name" hide-placeholder-on-focus="false" readonly="false" is-delayed="false" select-all-on-mouse-up="false" hide-mobile-input="false" auto-correction="false" max-length="128" value="zzzzzzzzzzz" name="ApiKeyField" style="color: rgb(255, 255, 255); align-items: center;" />
+            <ui:Label text="* The API key is stored on your own device. No data will ever be sent online." style="color: rgb(111, 111, 111); -unity-font-style: normal; white-space: normal;" />
+            <ui:VisualElement style="flex-grow: 1; flex-direction: row; justify-content: flex-end;">
+                <ui:Button text="Back" name="CloseButton" style="width: 90px; margin-top: 3px; margin-right: 3px; margin-bottom: 3px; margin-left: 3px; padding-top: 3px; padding-right: 0; padding-bottom: 3px; padding-left: 0;" />
+                <ui:Button text="Confirm" name="ConfirmButton" class="blue-button" style="width: 90px; margin-top: 3px; margin-right: 3px; margin-bottom: 3px; margin-left: 3px; padding-top: 3px; padding-right: 0; padding-bottom: 3px; padding-left: 0;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

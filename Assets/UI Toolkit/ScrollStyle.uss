@@ -1,0 +1,9 @@
+Scroller > RepeatButton#unity-low-button,
+Scroller > RepeatButton#unity-high-button {
+    display: none;
+}
+
+Scroller > ScrollerSlider#unity-slider {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

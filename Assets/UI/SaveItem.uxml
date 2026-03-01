@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/SaveItemStyle.uss?fileID=7433441132597879392&amp;guid=794abfd6d977b7249914ddb4662ee2ca&amp;type=3#SaveItemStyle" />
+    <ui:VisualElement style="flex-grow: 0; white-space: normal; flex-direction: row; flex-shrink: 0; width: 100%; height: 64px;">
+        <ui:Button text="&#10;" name="SaveItem" style="height: auto; padding-top: 5px; padding-bottom: 5px; padding-left: 25px; padding-right: 25px; justify-content: center; flex-grow: 1;">
+            <ui:Label text="SaveName" name="SaveNameLabel" style="height: 18px; width: 324px; -unity-font-style: bold; -unity-text-align: middle-left; text-overflow: clip; font-size: 20px;" />
+            <ui:Label text="23 Jan 2025, 10:00:00 AM" name="SaveCreatedAt" style="height: 14px; width: 350px; -unity-font-style: normal; -unity-text-align: middle-left; font-size: 16px;" />
+        </ui:Button>
+        <ui:Button text="Delete" name="DeleteButton" selectable="false" focusable="false" class="delete-button" style="display: none;" />
+    </ui:VisualElement>
+</ui:UXML>

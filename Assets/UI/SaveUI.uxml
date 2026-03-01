@@ -1,0 +1,14 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/StandardStyle.uss?fileID=7433441132597879392&amp;guid=96c830d546033024a9981dc4e32e716f&amp;type=3#StandardStyle" />
+    <ui:VisualElement picking-mode="Ignore" style="flex-grow: 1; width: 100%; height: 100%; align-items: center; justify-content: center;">
+        <ui:VisualElement name="SavePanel" class="panel" style="flex-grow: 0; height: 258px; width: 264px; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;">
+            <ui:VisualElement style="flex-grow: 0; border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: auto; height: auto; align-self: auto; flex-direction: row-reverse; align-content: auto; align-items: stretch; margin-top: 0; margin-bottom: 5px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-right: 0; margin-left: 0;">
+                <ui:Button text="X" name="CloseButton" style="width: 16px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-text-align: middle-center; font-size: 10px; -unity-font-style: bold; height: 16px;" />
+                <ui:Label text="Save" name="Title" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-font-style: bold; font-size: 10px; color: rgb(255, 255, 255); flex-grow: 1; -unity-text-align: middle-left; height: 16px;" />
+            </ui:VisualElement>
+            <ui:ListView name="SaveList" data-source-type="SaveMenu, Assembly-CSharp" horizontal-scrolling="false" show-border="false" virtualization-method="FixedHeight" item-template="project://database/Assets/UI/SaveItemSmall.uxml?fileID=9197481963319205126&amp;guid=f083b808a13b9cb4f870f030f6a5e2c5&amp;type=3#SaveItemSmall" fixed-item-height="42" style="height: auto; flex-grow: 1; margin-bottom: 5px;" />
+            <ui:TextField placeholder-text="Save name" name="SaveNameField" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; font-size: 12px;" />
+            <ui:Button text="Save" name="SaveButton" style="padding-top: 2px; padding-right: 0; padding-bottom: 2px; padding-left: 0; margin-top: 5px; margin-right: 0; margin-bottom: 0; margin-left: 0; font-size: 12px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

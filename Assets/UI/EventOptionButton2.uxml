@@ -1,0 +1,5 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement xmlns:uie="UnityEditor.UIElements" template="EventOptionButton" name="VisualElement">
+        <ui:Button text="Test Choice" class="option-button" style="margin-top: 0; margin-right: 0; margin-bottom: 5px; margin-left: 0; flex-grow: 1; flex-shrink: 0; height: auto; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; flex-wrap: wrap; white-space: normal; -unity-text-align: middle-center;" />
+    </ui:VisualElement>
+</ui:UXML>

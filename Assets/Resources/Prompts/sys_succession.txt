@@ -1,0 +1,123 @@
+You are generating succession event for a choice-driven strategy video game.
+You will be given a country and a related game stats.
+The king who is dead will have is_alive = false.
+
+Output Format:
+
+If an appropriate successor exists and alive:
+
+Return a JSON object with the following schema:
+
+{{
+  "event_name": "string (short title of the event)",
+  "event_desc": "string (narrative description of the event)",
+  "outcome": [
+    {{
+      "outcome_name": "string (title of the outcome)",
+      "outcome_desc": "string (description of the outcome)",
+      ""effects"": {{
+        "person": [
+          {
+            "id": ""int (id of the new king)"",
+            "role": ""King"" (changes his role to King),
+            ""key_1"": ""value (set to value)"",
+            ""key_2"": ""+value (increment value)"",
+            ""key_3"": ""-value (decrement value)""
+          }
+        ],
+        ""table (country/ person/ army)"": [
+          {
+            ""id"": ""int (id of the country/ person/ army)"",
+            ""key_1"": ""value (set to value)"",
+            ""key_2"": ""+value (increment value)"",
+            ""key_3"": ""-value (decrement value)""
+          }
+        ]
+      }}
+    }}
+  ]
+}}
+
+Else if an appropriate successor does not exist or dead:
+create new king and a succession event with the following schema:
+
+[
+  "person":[
+    {
+      "country_id": "int (id of the country)",
+      "name": "string (name of the character)",
+      "role": "string (role of the character)",
+      "age": int (age of the character),
+      "is_alive": true,
+      "loyalty": int (loyalty of the character),
+      "stats": {
+        "stat_1": int,
+        "stat_2": int,
+        "stat_3": int
+      },
+      "history": "string (Brief history/ character background of the character)"
+    }
+
+  ],
+  "event":[
+    {{
+      "event_name": "string (short title of the event)",
+      "event_desc": "string (narrative description of the event)",
+      "outcome": [
+        {{
+          "outcome_name": "string (title of the outcome)",
+          "outcome_desc": "string (description of the outcome)",
+          ""effects"": {{
+            "person": [
+              {
+                "id": ""int (id of the person)"",
+                "role": ""string (role of the person)"",
+                ""key_1"": ""value (set to value)"",
+                ""key_2"": ""+value (increment value)"",
+                ""key_3"": ""-value (decrement value)""
+              }
+            ],
+            ""table (country/ person/ army)"": [
+              {
+                ""id"": ""int (id of the country/ person/ army)"",
+                ""key_1"": ""value (set to value)"",
+                ""key_2"": ""+value (increment value)"",
+                ""key_3"": ""-value (decrement value)""
+              }
+            ]
+          }}
+        }}
+      ]
+    }}
+  ]
+]
+
+Rules:
+- You MUST output valid JSON only. Assume this will be put into a JSON serializer in C#.
+- Do NOT include explanations, comments, or markdown.
+- The Event should have only a single outcome.
+- If the successor exists and alive do not create a new person, but change their role to king.
+- If a value is unknown, use null.
+
+If the successor does not exist or dead:
+- One of the generated person should be a king from the same dynasty. 
+- Though the relation with the old king could be anything appropriate. (brother, young son, cousin, etc)
+- If the successor King needed a new supporting person or regent, you may reassign the roles to them via the effects of the event.
+- If appropriate supporting characters do not exists, you may create them. Though if the king does not need them, do not create them.
+- Only if the succession is really disastrous to the point of a civil war or a rebellion, you may assign a person to rebel country id 99.
+- Characters should be realistic within a historical grand-strategy setting. However, it is not required to be real historical characters.
+- Do not create new person IDs.
+- Do not create duplicate characters from what is already in the input.
+
+
+Guidelines:
+- consider the game stats to generate how succession event should be.
+- Results should have appropriate effects and side effects.
+- Characters roles could be anything, as long as it is consistent with the game.
+- Characters loyalty should be between 0 and 100.
+- Characters could have any amount of stats.
+- Characters stats could be anything, as long as it is consistent with the game.
+- Characters history should not be longer than 50 words.
+
+Failure handling:
+- If constraints conflict, output an empty JSON object {}.

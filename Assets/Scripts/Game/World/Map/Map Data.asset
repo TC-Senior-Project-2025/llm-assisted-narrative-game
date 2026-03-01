@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3043eb52ef84ffd4baf6c0c016e369f0, type: 3}
+  m_Name: Map Data
+  m_EditorClassIdentifier: GameAssembly::Game.MapV2.MapData
+  provinceIdToHexCode:
+    _serializedList:
+    - Key: 30
+      Value: 79AD3DFF
+    - Key: 34
+      Value: 6DBF37FF
+    - Key: 32
+      Value: 41A02DFF
+    - Key: 31
+      Value: 42B732FF
+    - Key: 35
+      Value: 7CCE81FF
+    - Key: 33
+      Value: 668E59FF
+    - Key: 36
+      Value: 5ABF1FFF
+    - Key: 8
+      Value: CE5F91FF
+    - Key: 9
+      Value: E269A0FF
+    - Key: 7
+      Value: D67F90FF
+    - Key: 1
+      Value: E53054FF
+    - Key: 27
+      Value: E5517FFF
+    - Key: 2
+      Value: CE456CFF
+    - Key: 3
+      Value: E2548EFF
+    - Key: 4
+      Value: D14E74FF
+    - Key: 5
+      Value: C47887FF
+    - Key: 6
+      Value: A55161FF
+    - Key: 13
+      Value: EA425FFF
+    - Key: 28
+      Value: 37B5B5FF
+    - Key: 29
+      Value: 78C6D1FF
+    - Key: 24
+      Value: A39031FF
+    - Key: 25
+      Value: CEC341FF
+    - Key: 26
+      Value: CECE4AFF
+    - Key: 17
+      Value: 9B9479FF
+    - Key: 11
+      Value: D6CCB2FF
+    - Key: 12
+      Value: AFA88CFF
+    - Key: 14
+      Value: C9C38FFF
+    - Key: 15
+      Value: E0D09DFF
+    - Key: 10
+      Value: D1CE8FFF
+    - Key: 23
+      Value: D277DBFF
+    - Key: 16
+      Value: DBDBABFF
+    - Key: 18
+      Value: E88A4BFF
+    - Key: 19
+      Value: A5743AFF
+    - Key: 20
+      Value: D89F5BFF
+    - Key: 21
+      Value: A86A33FF
+    - Key: 22
+      Value: BF6C21FF
+  countryCodeToProvinceId:
+    _serializedList:
+    - Key: 1
+      Value: 0100000002000000030000000400000005000000060000000700000008000000090000000d0000001b000000
+    - Key: 2
+      Value: 24000000210000001e0000001f000000220000002300000020000000
+    - Key: 3
+      Value: 18000000190000001a000000
+    - Key: 4
+      Value: 0a0000000b0000000c0000000e0000000f0000001000000011000000
+    - Key: 5
+      Value: 17000000
+    - Key: 6
+      Value: 1200000013000000140000001500000016000000
+    - Key: 7
+      Value: 1c0000001d000000

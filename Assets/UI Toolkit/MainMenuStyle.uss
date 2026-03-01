@@ -1,0 +1,19 @@
+:root {
+}
+
+.header {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    align-self: center;
+}
+
+.button {
+    font-size: 20px;
+    width: 220px;
+    height: 60px;
+    align-self: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}

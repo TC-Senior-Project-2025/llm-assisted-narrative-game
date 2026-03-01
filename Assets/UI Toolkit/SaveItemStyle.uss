@@ -1,0 +1,26 @@
+:root {
+}
+
+Toggle > Label {
+    opacity: 1;
+    display: none;
+    visibility: visible;
+}
+
+.delete-button {
+    background-color: rgb(166, 59, 63);
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+}
+
+.delete-button:hover {
+    background-color: rgb(140, 53, 57);
+    border-left-color: rgb(233, 122, 122);
+    border-right-color: rgb(233, 122, 122);
+    border-top-color: rgb(233, 122, 122);
+    border-bottom-color: rgb(233, 122, 122);
+}
+
+.delete-button:active {
+    background-color: rgb(96, 37, 37);
+}

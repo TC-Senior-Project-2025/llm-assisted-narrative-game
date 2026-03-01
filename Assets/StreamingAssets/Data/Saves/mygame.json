@@ -1,0 +1,2551 @@
+{
+  "game": {
+    "id": 0,
+    "save_name": "mygame",
+    "turn": 20,
+    "current_year": -245,
+    "current_month": 3,
+    "months_per_turn": 1,
+    "player_country_id": 1,
+    "history": "In March -245 BCE, the Warring States period was dominated by Qin's relentless expansion and the growing resistance from other states. Qin continued its costly sieges of Yunzhong and Jiuyuan, slowly depleting Zhao's garrisons and resources, while internally, their agricultural innovations resulted in successful harvests and increased stability. The newly formed 'Wan' rebellion in Shangdang and the 'Rebel Horde of Julu' actively challenged Qin's authority, inflicting casualties and gaining new recruits. Other states responded with varied strategies: Chu secured its southern trade routes and strengthened stability, Qi further cemented its anti-Qin stance by endorsing new philosophical texts and gaining prestige, and Wei's siege of Dai continued, suffering a morale hit but maintaining pressure. Zhao's famine in Yanmen worsened, forcing stricter rationing, while Yan reinforced its northern borders against nomadic incursions. Han implemented legal reforms, boosting its efficiency and stability, as it navigated the turbulent political landscape.",
+    "name": "Set Up",
+    "created_at": "2025-12-02 11:35:06.678011+07",
+    "updated_at": "2025-12-02 11:35:06.678011+07"
+  },
+  "country": [
+    {
+      "id": 1,
+      "game_id": 0,
+      "code": "QIN",
+      "name": "Qin",
+      "efficiency": 91,
+      "treasury": 4404,
+      "stability": 93,
+      "manpower": 383181,
+      "prestige": 117,
+      "mission_point": 0,
+      "last_turn_gold_income": 719,
+      "last_turn_manpower_income": 6755,
+      "last_turn_garrison_upkeep": 122,
+      "last_turn_army_upkeep": 132,
+      "history": "In January -245 BCE, Qin continued its siege of Yanmen, dispatching 5,000 fresh troops to reinforce General Meng Wu's forces and incurring a stability hit. Simultaneously, Qin launched successful raids on Zhao's Yunzhong and Jiuyuan commanderies, plundering wealth and population, which further increased national prestige. However, the newly conquered Julu faced a peasant rebellion that damaged infrastructure and further reduced its population, showcasing the challenges of occupation. Qin rejected a diplomatic proposal from Han. Domestically, Li Si's agricultural initiatives led to successful harvests, adding 100 gold to the treasury. In March -245 BCE, newly discovered ancient coins led to a 50 gold gain and +1 efficiency for Qin. Clashes in Julu resulted in 130 Qin soldiers lost. Qin also faced a new rebellion in Shangdang, establishing the state of Wan. The ongoing conflict with Zhao and the growing anti-Qin sentiment from other states remained significant challenges.",
+      "is_player": true
+    },
+    {
+      "id": 2,
+      "game_id": 0,
+      "code": "CHU",
+      "name": "Chu",
+      "efficiency": 61,
+      "treasury": 3810,
+      "stability": 88,
+      "manpower": 393071,
+      "prestige": 127,
+      "mission_point": 1,
+      "last_turn_gold_income": 327,
+      "last_turn_manpower_income": 4966,
+      "last_turn_garrison_upkeep": 35,
+      "last_turn_army_upkeep": 189,
+      "history": "In January -245 BCE, Chu remained vigilant against Qin's aggressive northern campaign, dedicating 10 gold to monitor the situation. While focusing on external threats, Chu maintained its firm stance against Qin's trade route incursions and continued to reinforce borders, bolstering its stability and prestige. Chu's policies were consistently backed by Qi, further solidifying the anti-Qin sentiment among the states. Chu also focused on containing internal conflicts by dispatching troops to suppress banditry in Donghai, ensuring stability within its own territories. In March -245 BCE, Chu dispatched patrols to secure southern trade routes, costing 20 gold and improving efficiency by 1, while reducing unrest in Kuaiji. These actions highlight Chu's strategic focus on both external security and internal cohesion.",
+      "is_player": false
+    },
+    {
+      "id": 3,
+      "game_id": 0,
+      "code": "QI",
+      "name": "Qi",
+      "efficiency": 91,
+      "treasury": 6155,
+      "stability": 72,
+      "manpower": 2232,
+      "prestige": 92,
+      "mission_point": 1,
+      "last_turn_gold_income": 351,
+      "last_turn_manpower_income": 3520,
+      "last_turn_garrison_upkeep": 37,
+      "last_turn_army_upkeep": 135,
+      "history": "In January -245 BCE, Qi continued to observe the prolonged siege of Yanmen by Qin forces, maintaining a cautious neutrality while focusing on internal stability and economic growth, which resulted in an increase of 5 gold and 1 stability. Qi had openly backed Chu against Qin's incursions, further solidifying an anti-Qin stance among several states. Qi's consistent denouncement of Qin's aggressive foreign policy cemented its commitment to regional stability, enhancing its prestige, and showcasing its continued influence among the wary states in the East. In March -245 BCE, Qi scholars discovered new philosophical texts, leading to a +1 efficiency and +1 prestige gain for the state, further solidifying its stance and influence. This strategic approach allowed Qi to prosper while avoiding direct involvement in the costly western conflicts.",
+      "is_player": false
+    },
+    {
+      "id": 4,
+      "game_id": 0,
+      "code": "ZHAO",
+      "name": "Zhao",
+      "efficiency": 70,
+      "treasury": -304,
+      "stability": 48,
+      "manpower": 129401,
+      "prestige": -167,
+      "mission_point": 1,
+      "last_turn_gold_income": 1,
+      "last_turn_manpower_income": 39,
+      "last_turn_garrison_upkeep": 5,
+      "last_turn_army_upkeep": 0,
+      "history": "In January -245 BCE, Zhao faced intensifying hardship. The famine in Yanmen reached critical levels, prompting desperate pleas for more aid from Wei and Han, which led to a decrease in its prestige. Yunzhong and Jiuyuan, already suffering, were further devastated by Qin raids, which plundered resources and reduced their populations. The ongoing siege of Dai by Wei continued to deplete Zhao's garrisons. In March -245 BCE, the famine in Yanmen worsened, leading to the implementation of stricter food rationing, resulting in a loss of 5,000 manpower and a decrease of 2 stability. This move also negatively impacted relations with Wei. Zhao's military strength and stability continued to decline under relentless internal and external pressures. Despite humanitarian aid from Wei and Han, the state remained on the brink of collapse, unable to effectively protect its territories.",
+      "is_player": false
+    },
+    {
+      "id": 5,
+      "game_id": 0,
+      "code": "WEI",
+      "name": "Wei",
+      "efficiency": 74,
+      "treasury": 1822,
+      "stability": 64,
+      "manpower": 126604,
+      "prestige": 98,
+      "mission_point": 1,
+      "last_turn_gold_income": 285,
+      "last_turn_manpower_income": 2463,
+      "last_turn_garrison_upkeep": 19,
+      "last_turn_army_upkeep": 41,
+      "history": "In January -245 BCE, Wei, under Prince Wei Wuji, continued its costly siege on Dai, further depleting Zhao's garrisons while suffering a morale decrease and a loss of manpower. Wei responded to Zhao's desperate pleas for aid by sending additional grain to famine-stricken Yanmen, spending 50 gold, which boosted its prestige by 1 and strengthened relations with Zhao. This action, coupled with finalizing a trade agreement with Han, further solidified Wei's position as a central player in the anti-Qin coalition and a pragmatic leader. In March -245 BCE, Prince Wei Wuji ordered a swift, decisive assault on Dai, further reducing its garrison but at the cost of his army's supply and morale. Wei suffered a strained relationship with Zhao due to Zhao's desperate famine rationing. Wei demonstrated a tactical balance between military aggression and diplomatic humanitarianism.",
+      "is_player": false
+    },
+    {
+      "id": 6,
+      "game_id": 0,
+      "code": "YAN",
+      "name": "Yan",
+      "efficiency": 57,
+      "treasury": -183,
+      "stability": 59,
+      "manpower": 132379,
+      "prestige": 3,
+      "mission_point": 1,
+      "last_turn_gold_income": 42,
+      "last_turn_manpower_income": 611,
+      "last_turn_garrison_upkeep": 10,
+      "last_turn_army_upkeep": 25,
+      "history": "In January -245 BCE, Yan continued its focus on northern stability. With the Liaoxi borders secured, Yan allocated an additional 50 gold to infrastructure and agricultural development in the region, aiming for long-term economic growth. Yan had previously rejected a diplomatic proposal from Qin, signaling its non-alignment with the western power struggles. In March -245 BCE, Yan allocated 10 gold to reinforce garrisons in Liaoxi against increasing nomadic raids. These sustained efforts highlighted Yan's strategic focus on internal development and territorial security, allowing its northern frontier to remain peaceful amidst broader regional conflicts. The investment in Liaoxi aimed to boost the wealth of the region, ensuring stability and prosperity.",
+      "is_player": false
+    },
+    {
+      "id": 7,
+      "game_id": 0,
+      "code": "HAN",
+      "name": "Han",
+      "efficiency": 75,
+      "treasury": 153,
+      "stability": 54,
+      "manpower": 28350,
+      "prestige": 39,
+      "mission_point": 1,
+      "last_turn_gold_income": 126,
+      "last_turn_manpower_income": 910,
+      "last_turn_garrison_upkeep": 11,
+      "last_turn_army_upkeep": 12,
+      "history": "In January -245 BCE, Han continued its commitment to its allies by dispatching 30 gold in medical supplies to famine-stricken Yanmen, strengthening relations with Zhao. This action followed previous humanitarian aid and a finalized trade agreement with Wei, further solidifying its ties within the anti-Qin coalition. Han rejected a diplomatic proposal from Han. In March -245 BCE, Han adopted Han Fei's legal reforms, increasing its efficiency and stability by 1 point each. These strategic moves reinforced Han's pragmatic approach to balancing internal development with external alliances, demonstrating a resilient strategy for survival and influence in a turbulent era, despite its own smaller stature as a state.",
+      "is_player": false
+    },
+    {
+      "id": 8,
+      "game_id": 0,
+      "code": "XIN",
+      "name": "Xin",
+      "efficiency": 30,
+      "treasury": 1116,
+      "stability": 27,
+      "manpower": 16500,
+      "prestige": 13,
+      "mission_point": 1,
+      "last_turn_gold_income": 0,
+      "last_turn_manpower_income": 0,
+      "last_turn_garrison_upkeep": 0,
+      "last_turn_army_upkeep": 6,
+      "history": "In January -245 BCE, the 'Rebel Horde of Julu' gained significant momentum, leveraging news of Qin's brutality at Yanmen to recruit 1,000 more peasants, boosting their morale by 5 points. The rebels, formed from a desperate populace, conducted a successful foray against Qin strongholds in Julu, damaging infrastructure and plundering wealth. This act of defiance demonstrated the growing resentment against Qin's harsh occupation and hinted at deeper resistance. In March -245 BCE, clashes in Julu against the Royal Qin Army cost 109 rebel lives. Despite losses, news of Qin's brutality further rallied the rebels, adding 500 manpower and increasing morale by 5. The rebellion continued to be fueled by hardship and a fierce desire for self-preservation.",
+      "is_player": false
+    },
+    {
+      "id": 9,
+      "game_id": 0,
+      "code": "WAN",
+      "name": "Wan",
+      "efficiency": 30,
+      "treasury": 1200,
+      "stability": 40,
+      "manpower": 15300,
+      "prestige": 10,
+      "mission_point": 0,
+      "last_turn_gold_income": 0,
+      "last_turn_manpower_income": 0,
+      "last_turn_garrison_upkeep": 0,
+      "last_turn_army_upkeep": 0,
+      "history": "A localized rebellion emerged from deep dissatisfaction with Qin rule, seeking local autonomy. In March -245 BCE, the Shangdang peasants openly rebelled against Qin, establishing the new state of Wan and seizing control of the city of Shangdang. Later that month, further small uprisings around Wan allowed the new state to gather an additional 300 manpower from the discontented populace.",
+      "is_player": false
+    }
+  ],
+  "relation": [
+    {
+      "src_country": 1,
+      "dst_country": 2,
+      "value": -30,
+      "is_allied": false,
+      "is_at_war": false,
+      "history": "Tense: Qin expanding southward; rivalry with Chu.",
+      "game_id": 0
+    },
+    {
+      "src_country": 2,
+      "dst_country": 1,
+      "value": 0,
+      "is_allied": false,
+      "is_at_war": false,
+      "history": "Tense: Qin expansion threatens Chu.",
+      "game_id": 0
+    },
+    {
+      "src_country": 1,
+      "dst_country": 3,
+      "value": 3,
+      "is_allied": true,
+      "is_at_war": false,
+      "history": "Cautious/competitive: limited direct conflict with Qi. Alliance formed in -247.",
+      "game_id": 0
+    },
+    {
+      "src_country": 3,
+      "dst_country": 1,
+      "value": 37,
+      "is_allied": true,
+      "is_at_war": false,
+      "history": "Cautious/competitive: Qin a rising power in the west. Alliance formed in -247.",
+      "game_id": 0
+    },
+    {
+      "src_country": 1,
+      "dst_country": 4,
+      "value": -126,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": "Hostile: legacy of the Battle of Changping and border enmity with Zhao. War declared in -247.",
+      "game_id": 0
+    },
+    {
+      "src_country": 4,
+      "dst_country": 1,
+      "value": -70,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": "Hostile: deep mistrust after major Qin victories. War declared in -247.",
+      "game_id": 0
+    },
+    {
+      "src_country": 1,
+      "dst_country": 5,
+      "value": -21,
+      "is_allied": true,
+      "is_at_war": false,
+      "history": "Rivalry with Wei over central plains and influence. Alliance formed in -247.",
+      "game_id": 0
+    },
+    {
+      "src_country": 5,
+      "dst_country": 1,
+      "value": 16,
+      "is_allied": true,
+      "is_at_war": false,
+      "history": "Rivalry: Wei wary of Qin ambitions. Alliance formed in -247.",
+      "game_id": 0
+    },
+    {
+      "src_country": 1,
+      "dst_country": 6,
+      "value": -20,
+      "is_allied": false,
+      "is_at_war": false,
+      "history": "Distant but uneasy: Yan is geographically remote but wary of Qin.",
+      "game_id": 0
+    },
+    {
+      "src_country": 6,
+      "dst_country": 1,
+      "value": -2,
+      "is_allied": false,
+      "is_at_war": false,
+      "history": "Distant/uneasy: frontier politics with Qin.",
+      "game_id": 0
+    },
+    {
+      "src_country": 1,
+      "dst_country": 7,
+      "value": -12,
+      "is_allied": true,
+      "is_at_war": false,
+      "history": "Hostile/timid: Han is pressured by Qin (territorial concessions). Alliance formed in -247.",
+      "game_id": 0
+    },
+    {
+      "src_country": 7,
+      "dst_country": 1,
+      "value": 4,
+      "is_allied": true,
+      "is_at_war": false,
+      "history": "Hostile/weak: Han suffers from Qin pressure and loss of territory. Alliance formed in -247.",
+      "game_id": 0
+    },
+    {
+      "src_country": 2,
+      "dst_country": 3,
+      "value": 36,
+      "is_allied": false,
+      "is_at_war": false,
+      "history": "Competitive: southern/eastern interests lead to occasional friction.",
+      "game_id": 0
+    },
+    {
+      "src_country": 3,
+      "dst_country": 2,
+      "value": 6,
+      "is_allied": false,
+      "is_at_war": false,
+      "history": "Competitive: Chu and Qi have differing southern/eastern priorities.",
+      "game_id": 0
+    },
+    {
+      "src_country": 2,
+      "dst_country": 4,
+      "value": 0,
+      "is_allied": false,
+      "is_at_war": false,
+      "history": "Neutral to slightly tense: occasional rivalry but not direct war. War declared in -247. Peace signed in -245.",
+      "game_id": 0
+    },
+    {
+      "src_country": 4,
+      "dst_country": 2,
+      "value": 10,
+      "is_allied": false,
+      "is_at_war": false,
+      "history": "Neutral/slight tension: geographic distance and differing priorities. War declared in -247. Peace signed in -245..",
+      "game_id": 0
+    },
+    {
+      "src_country": 2,
+      "dst_country": 5,
+      "value": -30,
+      "is_allied": false,
+      "is_at_war": false,
+      "history": "Generally neutral to wary: limited interaction with Wei. War declared in -247. Peace signed in -246.",
+      "game_id": 0
+    },
+    {
+      "src_country": 5,
+      "dst_country": 2,
+      "value": 0,
+      "is_allied": false,
+      "is_at_war": false,
+      "history": "Neutral/wary: Wei focuses on northern alliances. War declared in -247. Peace signed in -246..",
+      "game_id": 0
+    },
+    {
+      "src_country": 2,
+      "dst_country": 6,
+      "value": -40,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": "Distant distrust: Yan and Chu rarely cooperate. War declared in -247.",
+      "game_id": 0
+    },
+    {
+      "src_country": 6,
+      "dst_country": 2,
+      "value": -40,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": "Distant/distrustful: limited common interest. War declared in -247.",
+      "game_id": 0
+    },
+    {
+      "src_country": 2,
+      "dst_country": 7,
+      "value": 40,
+      "is_allied": false,
+      "is_at_war": false,
+      "history": "Neutral: Han sits between powers and sometimes courted by Chu.",
+      "game_id": 0
+    },
+    {
+      "src_country": 7,
+      "dst_country": 2,
+      "value": 0,
+      "is_allied": false,
+      "is_at_war": false,
+      "history": "Neutral: Han balanced between larger neighbors.",
+      "game_id": 0
+    },
+    {
+      "src_country": 3,
+      "dst_country": 4,
+      "value": 2,
+      "is_allied": false,
+      "is_at_war": false,
+      "history": "Mostly neutral: Qi and Zhao have occasional rivalry but low intensity. War declared in -247. Peace signed in -246.",
+      "game_id": 0
+    },
+    {
+      "src_country": 4,
+      "dst_country": 3,
+      "value": 8,
+      "is_allied": false,
+      "is_at_war": false,
+      "history": "Neutral: limited direct conflict in 247 BCE. War declared in -247. Peace signed in -246..",
+      "game_id": 0
+    },
+    {
+      "src_country": 3,
+      "dst_country": 5,
+      "value": 3,
+      "is_allied": true,
+      "is_at_war": false,
+      "history": "Friendly/cordial: some cooperation with Wei against western threats.",
+      "game_id": 0
+    },
+    {
+      "src_country": 5,
+      "dst_country": 3,
+      "value": 2,
+      "is_allied": true,
+      "is_at_war": false,
+      "history": "Friendly/cordial: shared interest vs Qin expansion.",
+      "game_id": 0
+    },
+    {
+      "src_country": 3,
+      "dst_country": 6,
+      "value": 30,
+      "is_allied": true,
+      "is_at_war": false,
+      "history": "Warm ties: Qi and Yan share eastern interests and occasional cooperation.",
+      "game_id": 0
+    },
+    {
+      "src_country": 6,
+      "dst_country": 3,
+      "value": 0,
+      "is_allied": true,
+      "is_at_war": false,
+      "history": "Warm ties: eastern states with coastal interests often align.",
+      "game_id": 0
+    },
+    {
+      "src_country": 3,
+      "dst_country": 7,
+      "value": 0,
+      "is_allied": false,
+      "is_at_war": false,
+      "history": "Neutral: little strategic overlap with Han.",
+      "game_id": 0
+    },
+    {
+      "src_country": 7,
+      "dst_country": 3,
+      "value": 8,
+      "is_allied": false,
+      "is_at_war": false,
+      "history": "Neutral: Han remains small and weak.",
+      "game_id": 0
+    },
+    {
+      "src_country": 4,
+      "dst_country": 5,
+      "value": -67,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": "Friendly/strategic: Zhao and Wei have aligned northern interests (allied tendencies). War declared in -246.",
+      "game_id": 0
+    },
+    {
+      "src_country": 5,
+      "dst_country": 4,
+      "value": -27,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": "Friendly/strategic: coordination vs nomads and Qin pressure. War declared in -246.",
+      "game_id": 0
+    },
+    {
+      "src_country": 4,
+      "dst_country": 6,
+      "value": 70,
+      "is_allied": false,
+      "is_at_war": false,
+      "history": "Neutral: Yan and Zhao have limited direct friction in 247 BCE.",
+      "game_id": 0
+    },
+    {
+      "src_country": 6,
+      "dst_country": 4,
+      "value": 24,
+      "is_allied": false,
+      "is_at_war": false,
+      "history": "Neutral: few active disputes then.",
+      "game_id": 0
+    },
+    {
+      "src_country": 4,
+      "dst_country": 7,
+      "value": -42,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": "Positive: Zhao may have defensive sympathies with Han. War declared in -246. Peace signed in -246..",
+      "game_id": 0
+    },
+    {
+      "src_country": 7,
+      "dst_country": 4,
+      "value": -35,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": "Positive/defensive: Han aligns with northern states when threatened. War declared in -246. Peace signed in -246.",
+      "game_id": 0
+    },
+    {
+      "src_country": 5,
+      "dst_country": 6,
+      "value": -3,
+      "is_allied": false,
+      "is_at_war": false,
+      "history": "Neutral: Wei and Yan have limited interaction.",
+      "game_id": 0
+    },
+    {
+      "src_country": 6,
+      "dst_country": 5,
+      "value": 9,
+      "is_allied": false,
+      "is_at_war": false,
+      "history": "Neutral: distant/occasional contact.",
+      "game_id": 0
+    },
+    {
+      "src_country": 5,
+      "dst_country": 7,
+      "value": -3,
+      "is_allied": false,
+      "is_at_war": false,
+      "history": "Modestly friendly: Wei and Han maintain cordial ties.",
+      "game_id": 0
+    },
+    {
+      "src_country": 7,
+      "dst_country": 5,
+      "value": 3,
+      "is_allied": false,
+      "is_at_war": false,
+      "history": "Modestly friendly: Han seeks goodwill from stronger neighbors.",
+      "game_id": 0
+    },
+    {
+      "src_country": 6,
+      "dst_country": 7,
+      "value": -36,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": "Neutral/distant: Yan mostly focused on northeastern frontier. War declared in -247.",
+      "game_id": 0
+    },
+    {
+      "src_country": 7,
+      "dst_country": 6,
+      "value": -36,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": "Neutral: little direct contact in this snapshot. War declared in -247.",
+      "game_id": 0
+    },
+    {
+      "src_country": 8,
+      "dst_country": 1,
+      "value": -98,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    },
+    {
+      "src_country": 1,
+      "dst_country": 8,
+      "value": -98,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    },
+    {
+      "src_country": 8,
+      "dst_country": 2,
+      "value": 0,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    },
+    {
+      "src_country": 2,
+      "dst_country": 8,
+      "value": -48,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    },
+    {
+      "src_country": 8,
+      "dst_country": 3,
+      "value": 0,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    },
+    {
+      "src_country": 3,
+      "dst_country": 8,
+      "value": -48,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    },
+    {
+      "src_country": 8,
+      "dst_country": 4,
+      "value": 0,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    },
+    {
+      "src_country": 4,
+      "dst_country": 8,
+      "value": -48,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    },
+    {
+      "src_country": 8,
+      "dst_country": 5,
+      "value": 0,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    },
+    {
+      "src_country": 5,
+      "dst_country": 8,
+      "value": -48,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    },
+    {
+      "src_country": 8,
+      "dst_country": 6,
+      "value": 0,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    },
+    {
+      "src_country": 6,
+      "dst_country": 8,
+      "value": -48,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    },
+    {
+      "src_country": 8,
+      "dst_country": 7,
+      "value": 0,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    },
+    {
+      "src_country": 7,
+      "dst_country": 8,
+      "value": -48,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    },
+    {
+      "src_country": 9,
+      "dst_country": 1,
+      "value": -100,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    },
+    {
+      "src_country": 1,
+      "dst_country": 9,
+      "value": -100,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    },
+    {
+      "src_country": 9,
+      "dst_country": 2,
+      "value": 0,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    },
+    {
+      "src_country": 2,
+      "dst_country": 9,
+      "value": -50,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    },
+    {
+      "src_country": 9,
+      "dst_country": 3,
+      "value": 0,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    },
+    {
+      "src_country": 3,
+      "dst_country": 9,
+      "value": -50,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    },
+    {
+      "src_country": 9,
+      "dst_country": 4,
+      "value": 0,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    },
+    {
+      "src_country": 4,
+      "dst_country": 9,
+      "value": -50,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    },
+    {
+      "src_country": 9,
+      "dst_country": 5,
+      "value": 0,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    },
+    {
+      "src_country": 5,
+      "dst_country": 9,
+      "value": -50,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    },
+    {
+      "src_country": 9,
+      "dst_country": 6,
+      "value": 0,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    },
+    {
+      "src_country": 6,
+      "dst_country": 9,
+      "value": -50,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    },
+    {
+      "src_country": 9,
+      "dst_country": 7,
+      "value": 0,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    },
+    {
+      "src_country": 7,
+      "dst_country": 9,
+      "value": -50,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    },
+    {
+      "src_country": 9,
+      "dst_country": 8,
+      "value": 0,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    },
+    {
+      "src_country": 8,
+      "dst_country": 9,
+      "value": -50,
+      "is_allied": false,
+      "is_at_war": true,
+      "history": null
+    }
+  ],
+  "person": [
+    {
+      "id": 1,
+      "country_id": 1,
+      "name": "Ying Zheng",
+      "age": 15,
+      "is_alive": true,
+      "loyalty": 100,
+      "role": "King",
+      "stats": {
+        "morale": 7,
+        "field_offense": 4,
+        "field_defense": 5,
+        "siege_offense": 3,
+        "siege_defense": 4,
+        "strategy": 10,
+        "leadership": 10,
+        "ruthlessness": 9
+      },
+      "history": "In August -246 BCE, Ying Zheng's loyalty significantly increased by 5 points after he approved a grand royal hunt, a traditional display of courtly power that also boosted his prestige.",
+      "game_id": 0
+    },
+    {
+      "id": 2,
+      "country_id": 1,
+      "name": "Zhao Ji",
+      "age": 34,
+      "is_alive": false,
+      "loyalty": 95,
+      "role": "Queen Dowager",
+      "stats": {
+        "morale": 5,
+        "field_offense": 1,
+        "field_defense": 2,
+        "siege_offense": 1,
+        "siege_defense": 2,
+        "politics": 7,
+        "influence": 8
+      },
+      "history": "Queen Dowager Zhao Ji, mother of King Ying Zheng, passed away in April -246. Her death marked the end of significant courtly intrigue and factional struggles that had revolved around her influence during the King's minority. Her passing opens new avenues for King Ying Zheng to consolidate his power and for the court to pursue a more unified direction.",
+      "game_id": 0
+    },
+    {
+      "id": 3,
+      "country_id": 1,
+      "name": "Lü Buwei",
+      "age": 46,
+      "is_alive": true,
+      "loyalty": 99,
+      "role": "Chancellor / Regent",
+      "stats": {
+        "morale": 6,
+        "field_offense": 3,
+        "field_defense": 4,
+        "siege_offense": 3,
+        "siege_defense": 4,
+        "wealth": 9,
+        "politics": 10,
+        "networking": 9
+      },
+      "history": "Lü Buwei, formerly a wealthy merchant, was appointed chancellor and effectively acts as regent after King Zhuangxiang (Previous King of Qin)'s death.  He is the dominant political actor in Qin for the early years of Ying Zheng's reign.",
+      "game_id": 0
+    },
+    {
+      "id": 17,
+      "country_id": 6,
+      "name": "Ji Xi",
+      "age": 38,
+      "is_alive": true,
+      "loyalty": 53,
+      "role": "King",
+      "stats": {
+        "morale": 5,
+        "field_offense": 3,
+        "field_defense": 3,
+        "siege_offense": 2,
+        "siege_defense": 3,
+        "cunning": 6,
+        "pressured": 7
+      },
+      "history": "King Xi rules Yan since 254 BCE. He was opportunistic but shortsighted and easily swayed, leading to often miscalculations.",
+      "game_id": 0
+    },
+    {
+      "id": 4,
+      "country_id": 1,
+      "name": "Li Si",
+      "age": 35,
+      "is_alive": true,
+      "loyalty": 102,
+      "role": "Scholar / Junior Advisor",
+      "stats": {
+        "morale": 5,
+        "field_offense": 2,
+        "field_defense": 3,
+        "siege_offense": 2,
+        "siege_defense": 3,
+        "writing": 8,
+        "legalism": 9,
+        "administration": 7
+      },
+      "history": "In September -246 BCE, Li Si's research into new crop varieties proved successful, enhancing Qin's agricultural output and further strengthening his loyalty to the state. This follows a successful propaganda campaign in August and a 1-point loyalty increase in July, highlighting his consistent value to Qin.",
+      "game_id": 0
+    },
+    {
+      "id": 5,
+      "country_id": 1,
+      "name": "Wang Jian",
+      "age": 44,
+      "is_alive": true,
+      "loyalty": 100,
+      "role": "General",
+      "stats": {
+        "morale": 9,
+        "field_offense": 7,
+        "field_defense": 9,
+        "siege_offense": 8,
+        "siege_defense": 9,
+        "patience": 9
+      },
+      "history": "Wang Jian is one of Qin’s senior commanders, a veteran general known for caution, discipline, and methodical planning. He prefers overwhelming preparation and secure logistics over risky offensives, making him well suited for prolonged and large-scale campaigns.",
+      "game_id": 0
+    },
+    {
+      "id": 6,
+      "country_id": 1,
+      "name": "Li Xin",
+      "age": 30,
+      "is_alive": true,
+      "loyalty": 98,
+      "role": "General",
+      "stats": {
+        "morale": 7,
+        "field_offense": 9,
+        "field_defense": 6,
+        "siege_offense": 6,
+        "siege_defense": 5,
+        "boldness": 8,
+        "initiative": 8
+      },
+      "history": "Li Xin is an energetic Qin general rising through the ranks.  Bold and aggressive in style, he is already entrusted with independent commands though sometimes criticized for overreach.",
+      "game_id": 0
+    },
+    {
+      "id": 7,
+      "country_id": 1,
+      "name": "Meng Wu",
+      "age": 35,
+      "is_alive": true,
+      "loyalty": 100,
+      "role": "General / Commander",
+      "stats": {
+        "morale": 8,
+        "field_offense": 7,
+        "field_defense": 8,
+        "siege_offense": 6,
+        "siege_defense": 7,
+        "leadership": 8
+      },
+      "history": "Meng Wu is a senior military commander from a noted martial family.  Father of Meng Tian, he serves as a trusted field deputy in important campaigns.",
+      "game_id": 0
+    },
+    {
+      "id": 8,
+      "country_id": 1,
+      "name": "Meng Tian",
+      "age": 5,
+      "is_alive": true,
+      "loyalty": 75,
+      "role": "Military Scion / Junior Officer",
+      "stats": {
+        "morale": 4,
+        "field_offense": 2,
+        "field_defense": 3,
+        "siege_offense": 4,
+        "siege_defense": 4,
+        "discipline": 6,
+        "engineering": 6
+      },
+      "history": "Meng Tian is member of a prominent general's household (son of Meng Wu).  In 247 BCE he is still a child, but have shown signs of interest about military and engineer of frontier works.",
+      "game_id": 0
+    },
+    {
+      "id": 9,
+      "country_id": 7,
+      "name": "Huan Hui",
+      "age": 44,
+      "is_alive": true,
+      "loyalty": 59,
+      "role": "King",
+      "stats": {
+        "morale": 5,
+        "field_offense": 3,
+        "field_defense": 3,
+        "siege_offense": 2,
+        "siege_defense": 3,
+        "diplomacy": 6,
+        "resilience": 4
+      },
+      "history": "King Huanhui rules the small state of Han since 272BCE and struggles to preserve its territory between larger rivals.  Han tries diplomacy and limited reform to survive Qin pressure.",
+      "game_id": 0
+    },
+    {
+      "id": 10,
+      "country_id": 7,
+      "name": "Han Fei",
+      "age": 35,
+      "is_alive": true,
+      "loyalty": 96,
+      "role": "Philosopher / Court Advisor",
+      "stats": {
+        "morale": 4,
+        "field_offense": 1,
+        "field_defense": 2,
+        "siege_offense": 1,
+        "siege_defense": 2,
+        "theory": 9,
+        "legalism": 10
+      },
+      "history": "In July -246 BCE, Han Fei's loyalty to Han increased by 1 point following the public reaffirmation of Legalist ideals, mitigating some of his earlier discontent.",
+      "game_id": 0
+    },
+    {
+      "id": 11,
+      "country_id": 4,
+      "name": "Xiao Cheng",
+      "age": 51,
+      "is_alive": true,
+      "loyalty": 45,
+      "role": "King",
+      "stats": {
+        "morale": 5,
+        "field_offense": 3,
+        "field_defense": 4,
+        "siege_offense": 3,
+        "siege_defense": 4,
+        "stress": 8,
+        "authority": 6
+      },
+      "history": "King Xiaocheng presides over Zhao since 265BCE. Five years after he took the throne, He suffers defeat from the catastrophic Battle of Changping (260 BCE). His rule has been under a fragile recovery ever since. Political and military pressures from Qin and internal instability dominate his reign.",
+      "game_id": 0
+    },
+    {
+      "id": 12,
+      "country_id": 4,
+      "name": "Li Mu",
+      "age": 47,
+      "is_alive": true,
+      "loyalty": 81,
+      "role": "General",
+      "stats": {
+        "morale": 9,
+        "field_offense": 6,
+        "field_defense": 10,
+        "siege_offense": 5,
+        "siege_defense": 9
+      },
+      "history": "Li Mu is Zhao's foremost defensive general — skilled at frontier defense and strategic caution.  He is a principal bulwark against northern raids and Qin incursions.",
+      "game_id": 0
+    },
+    {
+      "id": 13,
+      "country_id": 5,
+      "name": "Wei Yu",
+      "age": 53,
+      "is_alive": true,
+      "loyalty": 70,
+      "role": "King",
+      "stats": {
+        "morale": 6,
+        "field_offense": 4,
+        "field_defense": 5,
+        "siege_offense": 4,
+        "siege_defense": 5,
+        "diplomacy": 7,
+        "persistence": 7
+      },
+      "history": "In July -246 BCE, King Wei Yu's loyalty decreased by 2 points as he formally appointed Prince Wei Wuji as Prime Minister, further solidifying the shift in power dynamics within the court.",
+      "game_id": 0
+    },
+    {
+      "id": 14,
+      "country_id": 5,
+      "name": "Wei Wuji",
+      "age": 44,
+      "is_alive": true,
+      "loyalty": 100,
+      "role": "Prince / General",
+      "stats": {
+        "morale": 8,
+        "field_offense": 8,
+        "field_defense": 7,
+        "siege_offense": 6,
+        "siege_defense": 6,
+        "charisma": 9,
+        "leadership": 8
+      },
+      "history": "In July -246 BCE, Prince Wei Wuji's loyalty to Wei increased by 5 points after being appointed Prime Minister, formally recognizing his leadership and granting him full authority over civil and military affairs.",
+      "game_id": 0
+    },
+    {
+      "id": 15,
+      "country_id": 2,
+      "name": "Xiong Wan",
+      "age": 46,
+      "is_alive": true,
+      "loyalty": 83,
+      "role": "King",
+      "stats": {
+        "morale": 6,
+        "field_offense": 5,
+        "field_defense": 5,
+        "siege_offense": 4,
+        "siege_defense": 5,
+        "authority": 7,
+        "campaigning": 8
+      },
+      "history": "King Kaolie (Xiong Wan) rules the southern powerhouse Chu since 262BCE, His reign began under the shadow of Qin's capture of the Chu capital, Ying. He is often seen as well-intentioned but struggling to mobilize Chu's vast, decentralized resources effectively against Qin.",
+      "game_id": 0
+    },
+    {
+      "id": 16,
+      "country_id": 2,
+      "name": "Xiang Yan",
+      "age": 47,
+      "is_alive": true,
+      "loyalty": 100,
+      "role": "General",
+      "stats": {
+        "morale": 8,
+        "field_offense": 7,
+        "field_defense": 8,
+        "siege_offense": 5,
+        "siege_defense": 6,
+        "leadership": 8
+      },
+      "history": "Xiang Yan is a senior and capable Chu general celebrated for defending the southern realm and mounting effective resistance against Qin forces.",
+      "game_id": 0
+    },
+    {
+      "id": 18,
+      "country_id": 6,
+      "name": "Yan Dan",
+      "age": 13,
+      "is_alive": true,
+      "loyalty": 64,
+      "role": "Crown Prince",
+      "stats": {
+        "morale": 6,
+        "field_offense": 3,
+        "field_defense": 4,
+        "siege_offense": 3,
+        "siege_defense": 4,
+        "resolve": 8,
+        "desperation": 7
+      },
+      "history": "Prince Dan, the crown prince of Yan, is an influential figure at court. Intelligent but deeply anxious about Yan’s strategic position, he is prone to extreme ideas when facing existential threats, especially under pressure from stronger rivals.",
+      "game_id": 0
+    },
+    {
+      "id": 19,
+      "country_id": 6,
+      "name": "Jing Ke",
+      "age": 24,
+      "is_alive": true,
+      "loyalty": 39,
+      "role": "Diplomat / Assassin-Spy",
+      "stats": {
+        "morale": 6,
+        "field_offense": 4,
+        "field_defense": 3,
+        "siege_offense": 2,
+        "siege_defense": 2,
+        "bravery": 8,
+        "stealth": 7
+      },
+      "history": "Jing Ke is an obscure but daring retainer from Yan. He is known for personal courage and a willingness to undertake dangerous tasks, though he lacks status and formal authority within the state.",
+      "game_id": 0
+    },
+    {
+      "id": 20,
+      "country_id": 3,
+      "name": "Tian Jian",
+      "age": 40,
+      "is_alive": true,
+      "loyalty": 66,
+      "role": "King",
+      "stats": {
+        "morale": 5,
+        "field_offense": 3,
+        "field_defense": 4,
+        "siege_offense": 3,
+        "siege_defense": 4,
+        "diplomacy": 6,
+        "stability": 4
+      },
+      "history": "King Jian rules Qi since 264BCE, His state have not only significant resources but also internal factional problems.  Qi remains powerful but cautious to the point of extreme passivity. He pursued a strict policy of neutrality, refusing to aid other states.",
+      "game_id": 0
+    },
+    {
+      "id": 21,
+      "country_id": 1,
+      "name": "Wei Liao",
+      "age": 40,
+      "is_alive": true,
+      "loyalty": 97,
+      "role": "Military Strategist / Advisor",
+      "stats": {
+        "morale": 6,
+        "field_offense": 4,
+        "field_defense": 5,
+        "siege_offense": 4,
+        "siege_defense": 5,
+        "strategy": 9,
+        "planning": 8,
+        "diplomacy": 7
+      },
+      "history": "Wei Liao's loyalty increased by 2 points in April -246 as he likely benefited from the intellectual ferment and embrace of plurality within Qin's court.",
+      "game_id": 0
+    },
+    {
+      "id": 22,
+      "country_id": 1,
+      "name": "Huan Yi",
+      "age": 37,
+      "is_alive": true,
+      "loyalty": 100,
+      "role": "General",
+      "stats": {
+        "morale": 7,
+        "field_offense": 8,
+        "field_defense": 6,
+        "siege_offense": 5,
+        "siege_defense": 5,
+        "mobility": 7,
+        "boldness": 8
+      },
+      "history": "Huan Yi is a capable Qin field commander with experience in mobile warfare and aggressive operations. Pragmatic and ruthless when required, he is well suited for offensive campaigns and independent command.",
+      "game_id": 0
+    },
+    {
+      "id": 23,
+      "country_id": 4,
+      "name": "Pang Nuan",
+      "age": 67,
+      "is_alive": true,
+      "loyalty": 82,
+      "role": "Senior General",
+      "stats": {
+        "morale": 8,
+        "field_offense": 7,
+        "field_defense": 7,
+        "siege_offense": 4,
+        "siege_defense": 5,
+        "experience": 9,
+        "resilience": 7
+      },
+      "history": "Pang Nuan is a veteran Zhao general and an elder of the military establishment. Highly respected for his experience and theoretical knowledge of warfare, he represents the traditional military elite and favors decisive, honor-based engagements.",
+      "game_id": 0
+    },
+    {
+      "id": 24,
+      "country_id": 4,
+      "name": "Guo Kai",
+      "age": 47,
+      "is_alive": true,
+      "loyalty": 25,
+      "role": "Minister",
+      "stats": {
+        "morale": 4,
+        "field_offense": 2,
+        "field_defense": 2,
+        "siege_offense": 1,
+        "siege_defense": 2,
+        "intrigue": 9,
+        "corruption": 10,
+        "influence": 8
+      },
+      "history": "In April -246, Guo Kai's loyalty increased by 1 point. This likely stemmed from his alignment with the state's draconian rationing measures during the deepening famine, which prioritized military needs despite the severe impact on civilian morale.",
+      "game_id": 0
+    },
+    {
+      "id": 25,
+      "country_id": 2,
+      "name": "Huang Xie",
+      "age": 70,
+      "is_alive": true,
+      "loyalty": 87,
+      "role": "Chancellor / Lord Chunshen",
+      "stats": {
+        "morale": 6,
+        "field_offense": 3,
+        "field_defense": 4,
+        "siege_offense": 3,
+        "siege_defense": 4,
+        "politics": 8,
+        "administration": 7,
+        "wealth": 9
+      },
+      "history": "Huang Xie, Lord Chunshen, is one of the famed 'Four Lords' and the Chancellor of Chu. His political power is immense, though it is beginning to wane. He maintains a large retinue of advisers and is a key political actor.",
+      "game_id": 0
+    },
+    {
+      "id": 26,
+      "country_id": 5,
+      "name": "Mao Jiao",
+      "age": 42,
+      "is_alive": true,
+      "loyalty": 79,
+      "role": "Scholar / Advisor",
+      "stats": {
+        "morale": 6,
+        "field_offense": 3,
+        "field_defense": 4,
+        "siege_offense": 2,
+        "siege_defense": 3,
+        "courage": 9,
+        "ethics": 8,
+        "persuasion": 7
+      },
+      "history": "Mao Jiao is a scholar from Wei who has gained a position at the Qin court. Known for moral conviction and direct speech, he is willing to confront powerful figures if he believes state stability or ethical order is at risk.",
+      "game_id": 0
+    },
+    {
+      "id": 27,
+      "country_id": 3,
+      "name": "Hou Sheng",
+      "age": 52,
+      "is_alive": true,
+      "loyalty": 52,
+      "role": "Chancellor",
+      "stats": {
+        "morale": 4,
+        "field_offense": 2,
+        "field_defense": 2,
+        "siege_offense": 1,
+        "siege_defense": 2,
+        "greed": 10,
+        "short_sighted": 9,
+        "corruption": 10,
+        "influence": 7
+      },
+      "history": "Hou Sheng is the chief minister of Qi. He is corrupt and easily influenced by bribes. With enough money, he could influence the state to sway by his policies.",
+      "game_id": 0
+    },
+    {
+      "id": 28,
+      "country_id": 3,
+      "name": "Tian Dan",
+      "age": 79,
+      "is_alive": true,
+      "loyalty": 98,
+      "role": "Elder Statesman / General",
+      "stats": {
+        "morale": 8,
+        "field_offense": 5,
+        "field_defense": 8,
+        "siege_offense": 4,
+        "siege_defense": 8,
+        "prestige": 10,
+        "ingenuity": 9
+      },
+      "history": "Tian Dan is the legendary savior of Qi, who used 'fire oxen' to expel Yan invaders decades ago. Now an elder statesman, he is a symbol of Qi's resilience, but his cautious, defensive counsel is often ignored by the complacent court.",
+      "game_id": 0
+    },
+    {
+      "id": 29,
+      "country_id": 6,
+      "name": "Guo Kai",
+      "age": 54,
+      "is_alive": true,
+      "loyalty": 67,
+      "role": "Senior General",
+      "stats": {
+        "morale": 7,
+        "field_offense": 4,
+        "field_defense": 8,
+        "siege_offense": 4,
+        "siege_defense": 8,
+        "leadership": 7,
+        "caution": 8
+      },
+      "history": "Guo Kai is a veteran Yan general responsible for frontier defense and the organization of Yan's main field army.  Conservative and risk-averse, he focuses on fortifications and delaying actions rather than decisive engagements against stronger enemies like Qin.",
+      "game_id": 0
+    },
+    {
+      "id": 30,
+      "country_id": 7,
+      "name": "Chen Tanlong",
+      "age": 27,
+      "is_alive": true,
+      "loyalty": 80,
+      "role": "General",
+      "stats": {
+        "morale": 6,
+        "field_offense": 5,
+        "field_defense": 7,
+        "siege_offense": 4,
+        "siege_defense": 6,
+        "discipline": 7
+      },
+      "history": "Chen Tanlong is a career military officer of Han, Born in Yingchuan, rising through garrison and border commands.  While lacking brilliance, he is reliable and disciplined, entrusted with leading Han's main army due to the state's shortage of capable commanders.",
+      "game_id": 0
+    },
+    {
+      "id": 31,
+      "country_id": 3,
+      "name": "Tian Wan",
+      "age": 18,
+      "is_alive": true,
+      "loyalty": 77,
+      "role": "Princess",
+      "stats": {
+        "morale": 5,
+        "field_offense": 2,
+        "field_defense": 3,
+        "siege_offense": 1,
+        "siege_defense": 2,
+        "gluttony": 9,
+        "influence": 6,
+        "culture": 7,
+        "diplomacy": 4
+      },
+      "history": "Sister to king Tian Jian. A princess of the wealthy Qi court, Tian Wan is famous for her endless pursuit of fine food and new delicacies. Her lavish tastes symbolize Qi's great riches and its dangerous detachment from the wars raging beyond its borders.",
+      "game_id": 0
+    },
+    {
+      "id": 32,
+      "country_id": 1,
+      "name": "Ying Yiren",
+      "age": 34,
+      "is_alive": false,
+      "loyalty": 100,
+      "role": "Late King",
+      "stats": {
+        "morale": 6,
+        "field_offense": 4,
+        "field_defense": 5,
+        "siege_offense": 4,
+        "siege_defense": 5,
+        "politics": 8,
+        "fortune": 9,
+        "ambition": 6,
+        "administration": 5
+      },
+      "history": "died since 247 BCE - Month 7",
+      "game_id": 0
+    },
+    {
+      "id": 33,
+      "country_id": 8,
+      "name": "Tian Jie",
+      "age": 32,
+      "is_alive": true,
+      "loyalty": 89,
+      "role": "Rebel Leader",
+      "stats": {
+        "morale": 8,
+        "field_offense": 6,
+        "field_defense": 5,
+        "siege_offense": 4,
+        "siege_defense": 3,
+        "charisma": 8,
+        "resolve": 9
+      },
+      "history": "Tian Jie, a commoner with a magnetic personality, leads the Xin rebellion. Fueled by widespread famine and Qin's harsh rule, he has inspired many to join his cause."
+    },
+    {
+      "id": 34,
+      "country_id": 8,
+      "name": "Chen Gou",
+      "age": 45,
+      "is_alive": true,
+      "loyalty": 84,
+      "role": "Rebel Commander",
+      "stats": {
+        "morale": 7,
+        "field_offense": 7,
+        "field_defense": 6,
+        "siege_offense": 5,
+        "siege_defense": 4,
+        "tactics": 7,
+        "guerrilla_warfare": 8
+      },
+      "history": "A former farmer, Chen Gou became a skilled combatant after his village was destroyed by Qin forces. He now serves as a key military leader in the Xin rebellion, favoring unconventional tactics."
+    },
+    {
+      "id": 35,
+      "country_id": 2,
+      "name": "Han Yan",
+      "age": 55,
+      "is_alive": true,
+      "loyalty": 92,
+      "role": "Court Scholar",
+      "stats": {
+        "morale": 5,
+        "field_offense": 2,
+        "field_defense": 2,
+        "siege_offense": 1,
+        "siege_defense": 1,
+        "scholarship": 8,
+        "diplomacy": 7
+      },
+      "history": "Han Yan is a respected scholar in the Chu court, known for his deep knowledge of ancient texts and his measured counsel on state affairs. He advocates for cultural strength."
+    },
+    {
+      "id": 36,
+      "country_id": 3,
+      "name": "Chunyu Kun",
+      "age": 65,
+      "is_alive": true,
+      "loyalty": 85,
+      "role": "Historian / Advisor",
+      "stats": {
+        "morale": 6,
+        "field_offense": 1,
+        "field_defense": 2,
+        "siege_offense": 1,
+        "siege_defense": 2,
+        "history": 9,
+        "wit": 8
+      },
+      "history": "A renowned scholar and rhetorician from Qi, Chunyu Kun is a keeper of historical knowledge and a keen observer of political trends. He often uses satire to influence court decisions."
+    },
+    {
+      "id": 37,
+      "country_id": 4,
+      "name": "Zhao Bao",
+      "age": 58,
+      "is_alive": true,
+      "loyalty": 60,
+      "role": "Chief Eunuch",
+      "stats": {
+        "morale": 5,
+        "field_offense": 1,
+        "field_defense": 1,
+        "siege_offense": 1,
+        "siege_defense": 1,
+        "intrigue": 7,
+        "court_influence": 8
+      },
+      "history": "Zhao Bao, though a eunuch, wields considerable power behind the scenes in the Zhao court. His intricate network of informants keeps him aware of all political dealings, often for his own gain."
+    },
+    {
+      "id": 38,
+      "country_id": 5,
+      "name": "Lord Hualing",
+      "age": 49,
+      "is_alive": true,
+      "loyalty": 88,
+      "role": "Noble / General",
+      "stats": {
+        "morale": 7,
+        "field_offense": 6,
+        "field_defense": 7,
+        "siege_offense": 5,
+        "siege_defense": 6,
+        "nobility": 8,
+        "discipline": 7
+      },
+      "history": "A reputable general and noble of Wei, Lord Hualing commands a significant portion of Wei's forces. He is known for his traditional military approach and unwavering loyalty to the Wei house."
+    },
+    {
+      "id": 39,
+      "country_id": 7,
+      "name": "Zhang Liang",
+      "age": 20,
+      "is_alive": true,
+      "loyalty": 75,
+      "role": "Scholar / Strategist",
+      "stats": {
+        "morale": 5,
+        "field_offense": 2,
+        "field_defense": 3,
+        "siege_offense": 2,
+        "siege_defense": 3,
+        "intellect": 9,
+        "resolve": 8
+      },
+      "history": "A young but brilliant scholar from Han, Zhang Liang is known for his keen strategic mind and unwavering dedication to preserving his homeland. He seeks innovative solutions to Han's precarious position."
+    }
+  ],
+  "commandery": [
+    {
+      "id": 2,
+      "game_id": 0,
+      "country_id": 1,
+      "commander_id": null,
+      "code": null,
+      "name": "Sanchuan",
+      "population": 1216759,
+      "wealth": 105,
+      "unrest": 1,
+      "defensiveness": 7,
+      "garrisons": 25000,
+      "neighbors": [
+        1,
+        3,
+        23,
+        27,
+        28,
+        29
+      ],
+      "history": "Sanchuan's population increased by 15,000 in April -246 due to the influx and resettlement of refugees fleeing famine in Zhao. This reflected Qin's efforts to integrate new populations, though at an initial cost."
+    },
+    {
+      "id": 3,
+      "game_id": 0,
+      "country_id": 1,
+      "commander_id": null,
+      "code": null,
+      "name": "Hedong",
+      "population": 1110713,
+      "wealth": 100,
+      "unrest": 6,
+      "defensiveness": 7,
+      "garrisons": 25000,
+      "neighbors": [
+        1,
+        2,
+        6,
+        10,
+        13,
+        16,
+        23
+      ],
+      "history": "Hedong is a mature Qin agricultural and logistics region, freshly conquered from Wei, making it a critical staging ground for eastern expansion. In September -247, unrest in Hedong significantly decreased due to Li Si's successful propaganda, emphasizing the King's mandate and the benefits of integration."
+    },
+    {
+      "id": 4,
+      "game_id": 0,
+      "country_id": 1,
+      "commander_id": null,
+      "code": null,
+      "name": "Longxi",
+      "population": 222358,
+      "wealth": 50,
+      "unrest": 5,
+      "defensiveness": 7,
+      "garrisons": 22000,
+      "neighbors": [
+        1,
+        5,
+        7
+      ],
+      "history": "Strategic western frontier focused on cavalry supply and tribal defense rather than economic output."
+    },
+    {
+      "id": 5,
+      "game_id": 0,
+      "country_id": 1,
+      "commander_id": null,
+      "code": null,
+      "name": "Beidi",
+      "population": 42731,
+      "wealth": 40,
+      "unrest": 6,
+      "defensiveness": 6,
+      "garrisons": 18000,
+      "neighbors": [
+        1,
+        4,
+        6
+      ],
+      "history": "Militarized frontier zone with minimal civilian economy; strategic depth against northern threats."
+    },
+    {
+      "id": 6,
+      "game_id": 0,
+      "country_id": 1,
+      "commander_id": null,
+      "code": null,
+      "name": "Shang",
+      "population": 211270,
+      "wealth": 40,
+      "unrest": 7,
+      "defensiveness": 6,
+      "garrisons": 17000,
+      "neighbors": [
+        1,
+        3,
+        5,
+        13,
+        12,
+        17
+      ],
+      "history": "Defensive hill frontier; limited agriculture, sustained mainly for military control."
+    },
+    {
+      "id": 7,
+      "game_id": 0,
+      "country_id": 1,
+      "commander_id": null,
+      "code": null,
+      "name": "Hanzhong",
+      "population": 163585,
+      "wealth": 70,
+      "unrest": 2,
+      "defensiveness": 9,
+      "garrisons": 21000,
+      "neighbors": [
+        1,
+        4,
+        8,
+        9,
+        27,
+        33
+      ],
+      "history": "Fertile Han River corridor; strategic basin controlling access between Guanzhong and Sichuan."
+    },
+    {
+      "id": 8,
+      "game_id": 0,
+      "country_id": 1,
+      "commander_id": null,
+      "code": null,
+      "name": "Ba",
+      "population": 386889,
+      "wealth": 70,
+      "unrest": 6,
+      "defensiveness": 8,
+      "garrisons": 17000,
+      "neighbors": [
+        7,
+        9
+      ],
+      "history": "Resource-rich frontier with persistent local identity; Recently integrated."
+    },
+    {
+      "id": 9,
+      "game_id": 0,
+      "country_id": 1,
+      "commander_id": 2,
+      "code": null,
+      "name": "Shu",
+      "population": 1308160,
+      "wealth": 100,
+      "unrest": 5,
+      "defensiveness": 8,
+      "garrisons": 20000,
+      "neighbors": [
+        7,
+        8
+      ],
+      "history": "One of China’s richest agrarian regions; economically decisive but still stabilizing after conquest. Success in promoting the King's message raised loyalty and stability in October -247."
+    },
+    {
+      "id": 10,
+      "game_id": 0,
+      "country_id": 5,
+      "commander_id": null,
+      "code": null,
+      "name": "Handan",
+      "population": 1504664,
+      "wealth": 79,
+      "unrest": 8,
+      "defensiveness": 6,
+      "garrisons": 9000,
+      "neighbors": [
+        3,
+        16,
+        13,
+        14,
+        15,
+        18,
+        23
+      ],
+      "history": "Handan fell in April -246 to the relentless Qin siege, now reinforced by Wei forces under Prince Wei Wuji. Its garrisons were annihilated after enduring protracted pressure, marking a significant victory for Qin and Wei and opening a critical path into Zhao's heartland."
+    },
+    {
+      "id": 11,
+      "game_id": 0,
+      "country_id": 4,
+      "commander_id": null,
+      "code": null,
+      "name": "Yunzhong",
+      "population": 69242,
+      "wealth": 21,
+      "unrest": 5,
+      "defensiveness": 7,
+      "garrisons": 5228,
+      "neighbors": [
+        12,
+        17
+      ],
+      "history": "In January -245 BCE, Yunzhong, already struggling, suffered a devastating Qin raid that reduced its population by 7,157 and plundered 9 units of wealth, further weakening the commandery. In March -245 BCE, the Qin siege forced the garrison to lose an additional 636 defenders due to attrition."
+    },
+    {
+      "id": 12,
+      "game_id": 0,
+      "country_id": 1,
+      "commander_id": null,
+      "code": null,
+      "name": "Yanmen",
+      "population": 81903,
+      "wealth": 25,
+      "unrest": 13,
+      "defensiveness": 5,
+      "garrisons": 608,
+      "neighbors": [
+        6,
+        11,
+        13,
+        14,
+        17
+      ],
+      "history": "In November -246 BCE, Yanmen's famine worsened, necessitating another 200 gold in aid, slightly improving stability. However, a desperate sally against the Qin besiegers resulted in 1,500 garrison losses and decreased defensiveness. Conquered by Qin from Zhao in -246."
+    },
+    {
+      "id": 13,
+      "game_id": 0,
+      "country_id": 1,
+      "commander_id": null,
+      "code": null,
+      "name": "Taiyuan",
+      "population": 821542,
+      "wealth": 90,
+      "unrest": 5,
+      "defensiveness": 7,
+      "garrisons": 29000,
+      "neighbors": [
+        3,
+        6,
+        10,
+        12,
+        14,
+        16
+      ],
+      "history": "Fresh Qin foothold in Zhao heartland; economically valuable but politically unstable."
+    },
+    {
+      "id": 14,
+      "game_id": 0,
+      "country_id": 5,
+      "commander_id": null,
+      "code": null,
+      "name": "Dai",
+      "population": 53245,
+      "wealth": 35,
+      "unrest": 9,
+      "defensiveness": 8,
+      "garrisons": 1500,
+      "neighbors": [
+        10,
+        12,
+        13,
+        18
+      ],
+      "history": "In November -246 BCE, Dai continued to suffer under Wei's assault, losing an additional 500 garrisons as the besieged city neared its breaking point. Conquered by Wei from Zhao in -246. In March -245 BCE, Wei launched a swift assault on Dai resulting in an additional 500 garrison losses."
+    },
+    {
+      "id": 15,
+      "game_id": 0,
+      "country_id": 1,
+      "commander_id": 6,
+      "code": null,
+      "name": "Julu",
+      "population": 1949828,
+      "wealth": 51,
+      "unrest": 7,
+      "defensiveness": 5,
+      "garrisons": 25000,
+      "neighbors": [
+        10,
+        18,
+        23,
+        24
+      ],
+      "history": "In January -245 BCE, the newly acquired Julu was plagued by a peasant rebellion, with the 'Rebel Horde of Julu' damaging infrastructure and plundering wealth from Qin occupiers. This showcased the challenges of maintaining control over a newly conquered populace."
+    },
+    {
+      "id": 16,
+      "game_id": 0,
+      "country_id": 1,
+      "commander_id": 21,
+      "code": null,
+      "name": "Shangdang",
+      "population": 98166,
+      "wealth": 32,
+      "unrest": 6,
+      "defensiveness": 9,
+      "garrisons": 10000,
+      "neighbors": [
+        3,
+        10,
+        13
+      ],
+      "history": "Shangdang fell to Qin forces in April -246 due to the relentless siege. The city's defenses crumbled after its garrison was severely depleted by famine and war, signifying a grim harbinger for the beleaguered state of Zhao."
+    },
+    {
+      "id": 17,
+      "game_id": 0,
+      "country_id": 4,
+      "commander_id": null,
+      "code": null,
+      "name": "Jiuyuan",
+      "population": 32996,
+      "wealth": 30,
+      "unrest": 6,
+      "defensiveness": 5,
+      "garrisons": 5760,
+      "neighbors": [
+        6,
+        11,
+        12
+      ],
+      "history": "In January -245 BCE, the remote northern frontier of Jiuyuan was subjected to a swift Qin raid, which plundered its meager wealth and inflicted heavy casualties on its populace, further stressing the already struggling region. In March -245 BCE, the Qin siege continued, leading to 1,120 garrison losses."
+    },
+    {
+      "id": 18,
+      "game_id": 0,
+      "country_id": 6,
+      "commander_id": 17,
+      "code": null,
+      "name": "Shanggu",
+      "population": 672721,
+      "wealth": 55,
+      "unrest": 4,
+      "defensiveness": 11,
+      "garrisons": 17000,
+      "neighbors": [
+        10,
+        14,
+        15,
+        19
+      ],
+      "history": "In June -246 BCE, Shanggu's defensiveness increased by 1 point as Yan maintained its defensive posture against nomadic threats, keeping its garrisons on high alert despite manpower costs. This continued commitment to frontier protection followed earlier reinforcements in May."
+    },
+    {
+      "id": 19,
+      "game_id": 0,
+      "country_id": 6,
+      "commander_id": 18,
+      "code": null,
+      "name": "Yuyang",
+      "population": 195956,
+      "wealth": 57,
+      "unrest": 4,
+      "defensiveness": 6,
+      "garrisons": 6000,
+      "neighbors": [
+        18,
+        20
+      ],
+      "history": "In January -245 BCE, Yuyang continued its economic recovery with an investment of 50 gold from Yan, leading to an increase of 2 wealth. The northern frontier remained stable and secure."
+    },
+    {
+      "id": 20,
+      "game_id": 0,
+      "country_id": 6,
+      "commander_id": null,
+      "code": null,
+      "name": "Youbeiping",
+      "population": 222704,
+      "wealth": 56,
+      "unrest": 4,
+      "defensiveness": 6,
+      "garrisons": 4000,
+      "neighbors": [
+        19,
+        21
+      ],
+      "history": "In May -246, Youbeiping saw its unrest reduced by 1 point following Yan's decision to reinforce northern garrisons and conduct patrols in response to escalating nomadic raids. This measure contributed to local stability and security."
+    },
+    {
+      "id": 22,
+      "game_id": 0,
+      "country_id": 6,
+      "commander_id": null,
+      "code": null,
+      "name": "Liaodong",
+      "population": 202669,
+      "wealth": 56,
+      "unrest": 4,
+      "defensiveness": 7,
+      "garrisons": 7000,
+      "neighbors": [
+        21
+      ],
+      "history": "In October -246 BCE, Liaoxi's defensiveness was strengthened by 1 point due to reinforced garrisons in response to increased nomadic activity along the northern borders."
+    },
+    {
+      "id": 21,
+      "game_id": 0,
+      "country_id": 6,
+      "commander_id": null,
+      "code": null,
+      "name": "Liaoxi",
+      "population": 226996,
+      "wealth": 51,
+      "unrest": 4,
+      "defensiveness": 8,
+      "garrisons": 4500,
+      "neighbors": [
+        20,
+        22
+      ],
+      "history": "In November -246 BCE, following successful garrison reinforcements against nomadic tribes, Liaoxi saw an investment of 75 gold for local economic restoration, boosting its wealth. In March -245 BCE, Liaoxi's defensiveness increased by 1 point due to reinforced garrisons."
+    },
+    {
+      "id": 23,
+      "game_id": 0,
+      "country_id": 5,
+      "commander_id": null,
+      "code": null,
+      "name": "Dong",
+      "population": 2741829,
+      "wealth": 95,
+      "unrest": 4,
+      "defensiveness": 4,
+      "garrisons": 25000,
+      "neighbors": [
+        2,
+        3,
+        10,
+        15,
+        24,
+        26,
+        28
+      ],
+      "history": "Remnant heartland of Wei in eastern Henan; still productive but squeezed by surrounding powers."
+    },
+    {
+      "id": 24,
+      "game_id": 0,
+      "country_id": 3,
+      "commander_id": null,
+      "code": null,
+      "name": "Qi",
+      "population": 2572327,
+      "wealth": 94,
+      "unrest": 3,
+      "defensiveness": 6,
+      "garrisons": 33000,
+      "neighbors": [
+        15,
+        23,
+        25,
+        26
+      ],
+      "history": "The wealthy, populous core of Qi. Had avoided major war for decades but was diplomatically isolated. The capital Linzi was a major economic center."
+    },
+    {
+      "id": 25,
+      "game_id": 0,
+      "country_id": 3,
+      "commander_id": null,
+      "code": null,
+      "name": "Langye",
+      "population": 1859549,
+      "wealth": 81,
+      "unrest": 3,
+      "defensiveness": 5,
+      "garrisons": 23000,
+      "neighbors": [
+        24,
+        26,
+        35
+      ],
+      "history": "Coastal region of Qi. Known for trade and salt production."
+    },
+    {
+      "id": 26,
+      "game_id": 0,
+      "country_id": 3,
+      "commander_id": null,
+      "code": null,
+      "name": "Xue",
+      "population": 780815,
+      "wealth": 98,
+      "unrest": 3,
+      "defensiveness": 5,
+      "garrisons": 28000,
+      "neighbors": [
+        23,
+        24,
+        25,
+        28,
+        32,
+        35
+      ],
+      "history": "Southwestern Shandong plains; steady agrarian hinterland feeding Qi’s supply."
+    },
+    {
+      "id": 27,
+      "game_id": 0,
+      "country_id": 1,
+      "commander_id": null,
+      "code": null,
+      "name": "Nanyang",
+      "population": 1342183,
+      "wealth": 100,
+      "unrest": 1,
+      "defensiveness": 6,
+      "garrisons": 24000,
+      "neighbors": [
+        1,
+        2,
+        7,
+        29,
+        30,
+        33
+      ],
+      "history": "Major agrarian heartland formerly of Han Qin conquered from Han in 263 BCE."
+    },
+    {
+      "id": 28,
+      "game_id": 0,
+      "country_id": 5,
+      "commander_id": null,
+      "code": null,
+      "name": "Dang",
+      "population": 1313205,
+      "wealth": 90,
+      "unrest": 3,
+      "defensiveness": 5,
+      "garrisons": 17000,
+      "neighbors": [
+        2,
+        23,
+        26,
+        29,
+        32
+      ],
+      "history": "Eastern Henan small but moderately wealthy farmlands, under extreme and constant military pressure. In August -247, a local grain shortage caused unrest, but emergency relief from Wei reduced it. Further agricultural investment increased its wealth and reduced unrest again."
+    },
+    {
+      "id": 29,
+      "game_id": 0,
+      "country_id": 7,
+      "commander_id": null,
+      "code": null,
+      "name": "Yingchuan",
+      "population": 1639316,
+      "wealth": 125,
+      "unrest": 4,
+      "defensiveness": 5,
+      "garrisons": 30000,
+      "neighbors": [
+        2,
+        27,
+        28,
+        30,
+        32
+      ],
+      "history": "In September -246 BCE, Yingchuan's agricultural innovation yielded further positive results, boosting its wealth by 5 points and contributing to national stability. This built upon the previous month's significant increase in wealth and reduction in unrest."
+    },
+    {
+      "id": 30,
+      "game_id": 0,
+      "country_id": 2,
+      "commander_id": null,
+      "code": null,
+      "name": "Jiujiang",
+      "population": 3428140,
+      "wealth": 78,
+      "unrest": 0,
+      "defensiveness": 6,
+      "garrisons": 19000,
+      "neighbors": [
+        27,
+        29,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "history": "In May -246, Jiujiang faced a virulent recurrence of cholera. Through intensified medical efforts, unrest was reduced by 2 points, but the commandery suffered a population loss of 5,000, highlighting the severe impact of the epidemic on the region."
+    },
+    {
+      "id": 31,
+      "game_id": 0,
+      "country_id": 2,
+      "commander_id": null,
+      "code": null,
+      "name": "Zhang",
+      "population": 301683,
+      "wealth": 65,
+      "unrest": 4,
+      "defensiveness": 7,
+      "garrisons": 15000,
+      "neighbors": [
+        30,
+        34,
+        35
+      ],
+      "history": "A mountainous area carved from former Yue territory, with mixed Chu/Yue populace."
+    },
+    {
+      "id": 32,
+      "game_id": 0,
+      "country_id": 2,
+      "commander_id": null,
+      "code": null,
+      "name": "Sishui",
+      "population": 1498243,
+      "wealth": 76,
+      "unrest": 1,
+      "defensiveness": 5,
+      "garrisons": 16000,
+      "neighbors": [
+        26,
+        28,
+        29,
+        30,
+        35
+      ],
+      "history": "In August -246 BCE, Sishui's stability improved, and unrest decreased by 1 point, while wealth increased by 5 points due to efforts to send aid and reinforce dykes against river flooding. This followed a 1-point increase in defensiveness in July after successful bandit suppression."
+    },
+    {
+      "id": 33,
+      "game_id": 0,
+      "country_id": 2,
+      "commander_id": null,
+      "code": null,
+      "name": "Nan",
+      "population": 601468,
+      "wealth": 83,
+      "unrest": 2,
+      "defensiveness": 7,
+      "garrisons": 28000,
+      "neighbors": [
+        7,
+        27,
+        30,
+        36
+      ],
+      "history": "Chu's heartland in the middle Yangtze. Good rice lands, substantial peasant base."
+    },
+    {
+      "id": 34,
+      "game_id": 0,
+      "country_id": 2,
+      "commander_id": null,
+      "code": null,
+      "name": "Kuaiji",
+      "population": 765589,
+      "wealth": 60,
+      "unrest": 1,
+      "defensiveness": 6,
+      "garrisons": 15000,
+      "neighbors": [
+        30,
+        31
+      ],
+      "history": "Former heartland of Yue, annexed by Chu. Productive rice and waterways under Chu influence but still dominated by Yue culture and prone to unrest. In March -245 BCE, unrest was reduced by 1 point due to increased patrols."
+    },
+    {
+      "id": 35,
+      "game_id": 0,
+      "country_id": 2,
+      "commander_id": null,
+      "code": null,
+      "name": "Donghai",
+      "population": 1964779,
+      "wealth": 67,
+      "unrest": 1,
+      "defensiveness": 4,
+      "garrisons": 13000,
+      "neighbors": [
+        25,
+        26,
+        30,
+        31,
+        32
+      ],
+      "history": "Donghai, Chu's coastal frontier, continued to experience issues with organized bandit gangs in January -246. Following the dispatch of a significant portion of the Royal Chu Army to suppress the threat, unrest in the commandery decreased by 2 points. This intervention helped secure the region and its vital trade routes."
+    },
+    {
+      "id": 36,
+      "game_id": 0,
+      "country_id": 2,
+      "commander_id": null,
+      "code": null,
+      "name": "Changsha",
+      "population": 393188,
+      "wealth": 65,
+      "unrest": 2,
+      "defensiveness": 5,
+      "garrisons": 12000,
+      "neighbors": [
+        30,
+        33
+      ],
+      "history": "Hunan plain; rice and subtropical crops; Southern frontier of Chu. Sparse population with significant indigenous \"Hundred Yue\" peoples; loose Chu control. In October -247, unrest decreased following a diplomatic delegation from Chu."
+    },
+    {
+      "id": 1,
+      "game_id": 0,
+      "country_id": 1,
+      "commander_id": null,
+      "code": null,
+      "name": "Neishi",
+      "population": 1719841,
+      "wealth": 130,
+      "unrest": 0,
+      "defensiveness": 6,
+      "garrisons": 37000,
+      "neighbors": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        27
+      ],
+      "history": "In June -246 BCE, Neishi, Qin's capital, saw continued benefit from the new trade route established in May, which had previously increased its wealth and reduced unrest. This solidified its status as a prosperous and stable core region."
+    }
+  ],
+  "army": [
+    {
+      "id": 1,
+      "game_id": 0,
+      "country_id": 1,
+      "commander_id": 22,
+      "location_id": 15,
+      "name": "Royal Qin Army",
+      "size": 99969,
+      "morale": 114,
+      "supply": 80,
+      "action_left": 2,
+      "history": "In October -246 BCE, the Royal Qin Army, under General Huan Yi, achieved a decisive victory with the fall of Julu, after months of relentless siege and devastating attrition to Zhao's defenders."
+    },
+    {
+      "id": 2,
+      "game_id": 0,
+      "country_id": 2,
+      "commander_id": 16,
+      "location_id": 33,
+      "name": "Royal Chu Army",
+      "size": 759263,
+      "morale": 114,
+      "supply": 100,
+      "action_left": 0,
+      "history": "In September -246 BCE, a small contingent of the Royal Chu Army was dispatched to Donghai to suppress resurgent banditry. This deployment involved a loss of 500 manpower."
+    },
+    {
+      "id": 3,
+      "game_id": 0,
+      "country_id": 3,
+      "commander_id": 28,
+      "location_id": 24,
+      "name": "Royal Qi Army",
+      "size": 216665,
+      "morale": 112,
+      "supply": 100,
+      "action_left": 1,
+      "history": ""
+    },
+    {
+      "id": 5,
+      "game_id": 0,
+      "country_id": 5,
+      "commander_id": 14,
+      "location_id": 10,
+      "name": "Royal Wei Army",
+      "size": 165064,
+      "morale": 111,
+      "supply": 90,
+      "action_left": 0,
+      "history": "In November -246 BCE, the Royal Wei Army, under Prince Wei Wuji, continued its siege on Dai, suffering a minor morale decrease due to the intensified but costly assault. In March -245 BCE, a swift assault on Dai reduced supply by 10 and morale by 5."
+    },
+    {
+      "id": 6,
+      "game_id": 0,
+      "country_id": 6,
+      "commander_id": 29,
+      "location_id": 19,
+      "name": "Royal Yan Army",
+      "size": 102439,
+      "morale": 104,
+      "supply": 100,
+      "action_left": 0,
+      "history": ""
+    },
+    {
+      "id": 7,
+      "game_id": 0,
+      "country_id": 7,
+      "commander_id": 30,
+      "location_id": 1,
+      "name": "Royal Han Army",
+      "size": 46583,
+      "morale": 116,
+      "supply": 100,
+      "action_left": 0,
+      "history": ""
+    },
+    {
+      "id": 8,
+      "game_id": 0,
+      "country_id": 1,
+      "commander_id": 7,
+      "location_id": 11,
+      "name": "d",
+      "size": 80301,
+      "morale": 57,
+      "supply": 100,
+      "action_left": 2,
+      "history": "In January -245 BCE, this Qin army continued its arduous siege of Yanmen. It received 5,000 fresh troops as reinforcement, boosting its size to 89,528 and increasing its morale by 5 points to 54. This infusion of new manpower was critical due to dwindling supplies and stiff Zhao resistance, showcasing General Meng Wu's determination to press the siege, despite continued challenges."
+    },
+    {
+      "id": 9,
+      "game_id": 0,
+      "country_id": 3,
+      "commander_id": 20,
+      "location_id": 25,
+      "name": "Qi Army",
+      "size": 213264,
+      "morale": 106,
+      "supply": 100,
+      "action_left": 1,
+      "history": ""
+    },
+    {
+      "id": 11,
+      "game_id": 0,
+      "country_id": 3,
+      "commander_id": 31,
+      "location_id": 26,
+      "name": "Qi Army",
+      "size": 84316,
+      "morale": 99,
+      "supply": 100,
+      "action_left": 1,
+      "history": ""
+    },
+    {
+      "id": 12,
+      "game_id": 0,
+      "country_id": 1,
+      "commander_id": 8,
+      "location_id": 17,
+      "name": "reinforce",
+      "size": 238024,
+      "morale": 117,
+      "supply": 100,
+      "action_left": 2,
+      "history": ""
+    },
+    {
+      "id": 13,
+      "game_id": 0,
+      "country_id": 3,
+      "commander_id": 27,
+      "location_id": 25,
+      "name": "Qi Army",
+      "size": 51818,
+      "morale": 42,
+      "supply": 100,
+      "action_left": 1,
+      "history": ""
+    },
+    {
+      "id": 14,
+      "game_id": 0,
+      "country_id": 3,
+      "commander_id": null,
+      "location_id": 25,
+      "name": "Qi Army",
+      "size": 27908,
+      "morale": 0,
+      "supply": 100,
+      "action_left": 1,
+      "history": ""
+    },
+    {
+      "id": 15,
+      "game_id": 0,
+      "country_id": 8,
+      "commander_id": 34,
+      "location_id": 15,
+      "name": "Rebel Horde of Julu",
+      "size": 24641,
+      "morale": 81,
+      "supply": 106,
+      "action_left": 2,
+      "history": "In January -245 BCE, the 'Rebel Horde of Julu' rallied, gaining 1,000 more desperate peasants, bringing its size to 26,000, and boosting its morale by 5 points to 82. This surge in strength was fueled by news of Qin's brutality, indicating a growing and determined resistance movement. In March -245 BCE, clashes with Qin resulted in 109 rebel casualties. Morale increased by 5 due to Qin's harsh reprisals."
+    },
+    {
+      "id": 16,
+      "game_id": 0,
+      "country_id": 1,
+      "commander_id": 5,
+      "location_id": 27,
+      "name": "Hero of the south",
+      "size": 100000,
+      "morale": 43,
+      "supply": 100,
+      "action_left": 1,
+      "history": ""
+    },
+    {
+      "id": 17,
+      "game_id": 0,
+      "country_id": 9,
+      "commander_id": null,
+      "location_id": 16,
+      "name": "Shangdang Rebels",
+      "size": 8000,
+      "morale": 65,
+      "supply": 70,
+      "action_left": 1,
+      "history": "A ragtag force of peasants and disgruntled locals, poorly equipped but driven by resentment."
+    }
+  ],
+  "battle": [
+    {
+      "id": 5,
+      "phase": "siege",
+      "attacker_army": [
+        8
+      ],
+      "defender_army": [],
+      "location_id": 11,
+      "starting_month": 1,
+      "starting_year": -245,
+      "attacker_losses": 0,
+      "defender_losses": 636
+    },
+    {
+      "id": 6,
+      "phase": "engagement",
+      "attacker_army": [
+        15
+      ],
+      "defender_army": [
+        1
+      ],
+      "location_id": 15,
+      "starting_month": 1,
+      "starting_year": -245,
+      "attacker_losses": 109,
+      "defender_losses": 130
+    },
+    {
+      "id": 7,
+      "phase": "siege",
+      "attacker_army": [
+        12
+      ],
+      "defender_army": [],
+      "location_id": 17,
+      "starting_month": 1,
+      "starting_year": -245,
+      "attacker_losses": 0,
+      "defender_losses": 1120
+    }
+  ]
+}

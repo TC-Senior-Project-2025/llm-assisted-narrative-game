@@ -1,0 +1,43 @@
+:root {
+}
+
+.parent {
+    align-items: flex-start;
+    align-self: stretch;
+    width: 100%;
+    flex-grow: 1;
+}
+
+TextField > #unity-text-input {
+    color: rgb(0, 0, 0);
+}
+
+TextField > Label {
+    color: rgb(255, 255, 255);
+}
+
+.blue-button {
+    background-color: rgb(45, 202, 255);
+    border-left-color: rgb(94, 114, 137);
+    border-right-color: rgb(94, 114, 137);
+    border-top-color: rgb(94, 114, 137);
+    border-bottom-color: rgb(94, 114, 137);
+}
+
+.blue-button:hover {
+    background-color: rgb(138, 225, 255);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.blue-button:active {
+    background-color: rgb(117, 159, 173);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}

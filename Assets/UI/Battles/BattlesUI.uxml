@@ -1,0 +1,12 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/StandardStyle.uss?fileID=7433441132597879392&amp;guid=96c830d546033024a9981dc4e32e716f&amp;type=3#StandardStyle" />
+    <ui:VisualElement picking-mode="Ignore" style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:VisualElement name="BattlesPanel" class="panel" style="flex-grow: 0; height: 285px; width: 297px; padding-top: 12px; padding-right: 12px; padding-bottom: 12px; padding-left: 12px; display: flex; visibility: hidden;">
+            <ui:VisualElement style="flex-grow: 0; border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: auto; height: auto; align-self: auto; flex-direction: row-reverse; align-content: auto; align-items: stretch; margin-top: 0; margin-bottom: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-right: 0; margin-left: 0;">
+                <ui:Button text="X" name="CloseButton" style="width: 16px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-text-align: middle-center; font-size: 10px; -unity-font-style: bold; height: 16px;" />
+                <ui:Label text="Battles" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-font-style: bold; font-size: 10px; color: rgb(255, 255, 255); flex-grow: 1; -unity-text-align: middle-left; height: 16px;" />
+            </ui:VisualElement>
+            <ui:ListView item-template="project://database/Assets/UI/Battles/BattleItem.uxml?fileID=9197481963319205126&amp;guid=9655aef52f45580439c847123d641397&amp;type=3#BattleItem" fixed-item-height="65" style="flex-grow: 1; margin-top: 7px; color: rgb(255, 255, 255); font-size: 11px; height: auto;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

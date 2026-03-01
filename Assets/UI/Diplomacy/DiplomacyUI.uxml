@@ -1,0 +1,142 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/StandardStyle.uss?fileID=7433441132597879392&amp;guid=96c830d546033024a9981dc4e32e716f&amp;type=3#StandardStyle" />
+    <Style src="project://database/Assets/UI%20Toolkit/DiplomacyStyle.uss?fileID=7433441132597879392&amp;guid=3e3f236845b0ee9428eb22826db7d8e6&amp;type=3#DiplomacyStyle" />
+    <ui:VisualElement name="MainPanel" class="panel" style="flex-grow: 0; width: 183px; height: 277px; position: absolute; top: 94px; left: 10px; padding-top: 12px; padding-right: 12px; padding-bottom: 12px; padding-left: 12px; visibility: visible;">
+        <ui:VisualElement style="flex-grow: 0; border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: auto; height: auto; align-self: auto; flex-direction: row-reverse; align-content: auto; align-items: stretch; margin-top: 0; margin-bottom: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-right: 0; margin-left: 0;">
+            <ui:Button text="X" name="CloseButton" style="width: 16px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-text-align: middle-center; font-size: 10px; -unity-font-style: bold; height: 16px;" />
+            <ui:Label text="Diplomacy" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-font-style: bold; font-size: 10px; color: rgb(255, 255, 255); flex-grow: 1; -unity-text-align: middle-left; height: 16px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Container" style="flex-grow: 1; margin-top: 8px;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="RelationPanel" class="panel" style="flex-grow: 0; width: 167px; height: auto; position: absolute; top: 94px; left: 199px; padding-top: 12px; padding-right: 12px; padding-bottom: 12px; padding-left: 12px; visibility: visible;">
+        <ui:VisualElement style="flex-grow: 0; border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: auto; height: auto; align-self: auto; flex-direction: row-reverse; align-content: auto; align-items: stretch; margin-top: 0; margin-bottom: 6px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-right: 0; margin-left: 0;">
+            <ui:Button text="X" name="CloseButton" style="width: 16px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-text-align: middle-center; font-size: 10px; -unity-font-style: bold; height: 16px;" />
+            <ui:Label text="Relations with Zhao" name="TitleLabel" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-font-style: bold; font-size: 10px; color: rgb(255, 255, 255); flex-grow: 1; -unity-text-align: middle-left; height: 16px;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 0;">
+            <ui:Button text="Trade" name="TradeButton" style="padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px; margin-top: 0; margin-right: 0; margin-bottom: 3px; margin-left: 0; font-size: 12px;" />
+            <ui:Button text="Declare war" name="DeclareWarButton" style="padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px; margin-top: 0; margin-right: 0; margin-bottom: 3px; margin-left: 0; font-size: 12px;" />
+            <ui:Button text="Break alliance" name="BreakAlliance" enabled="true" style="padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px; margin-top: 0; margin-right: 0; margin-bottom: 3px; margin-left: 0; font-size: 12px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="Modal" picking-mode="Ignore" style="flex-grow: 1; align-items: center; justify-content: center; position: relative;">
+        <ui:VisualElement name="TradePanel" class="panel" style="flex-grow: 0; height: auto; width: 311px; padding-top: 12px; padding-right: 12px; padding-bottom: 12px; padding-left: 12px; display: flex; visibility: visible;">
+            <ui:VisualElement style="flex-grow: 0; border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: auto; height: auto; align-self: auto; flex-direction: row-reverse; align-content: auto; align-items: stretch; margin-top: 0; margin-bottom: 5px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-right: 0; margin-left: 0;">
+                <ui:Button text="X" name="CloseButton" style="width: 16px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-text-align: middle-center; font-size: 10px; -unity-font-style: bold; height: 16px;" />
+                <ui:Label text="Trade with Zhao" name="Title" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-font-style: bold; font-size: 10px; color: rgb(255, 255, 255); flex-grow: 1; -unity-text-align: middle-left; height: 16px;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; padding-bottom: 0; border-bottom-width: 0; border-bottom-color: rgb(94, 94, 94); border-left-color: rgb(94, 94, 94); border-right-color: rgb(94, 94, 94); border-top-color: rgb(94, 94, 94); border-top-width: 0; border-right-width: 0; border-left-width: 0; display: flex;">
+                <ui:VisualElement name="WeReceive" style="flex-grow: 0; margin-top: 5px; margin-bottom: 0;">
+                    <ui:Label text="We receive:" style="color: rgb(130, 130, 130); -unity-font-style: bold; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; font-size: 10px;" />
+                    <ui:VisualElement name="WeReceive" style="flex-grow: 1; flex-direction: row; margin-top: 3px; align-items: center;">
+                        <ui:DropdownField choices="Gold,Manpower" name="ResourceDropdownField" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 20px; width: auto; flex-grow: 1;" />
+                        <ui:DropdownField choices="Gold,Manpower" name="CommanderyDropdownField" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 5px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 20px; width: 140px; display: none;" />
+                        <ui:DropdownField choices="Gold,Manpower" name="WarDropdownField" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 5px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 20px; width: 140px; display: none;" />
+                        <ui:IntegerField value="0" max-length="8" style="height: 22px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 5px; flex-grow: 0; font-size: 12px; display: flex; width: 100px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="WeReceive" style="flex-grow: 1; flex-direction: row; margin-top: 3px; align-items: center; display: none;">
+                        <ui:DropdownField choices="Gold,Manpower" name="ResourceDropdownField" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 20px; width: auto; flex-grow: 1;" />
+                        <ui:DropdownField choices="Gold,Manpower" name="CommanderyDropdownField" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 5px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 20px; width: 140px; display: none;" />
+                        <ui:DropdownField choices="Gold,Manpower" name="WarDropdownField" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 5px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 20px; width: 140px; display: none;" />
+                        <ui:IntegerField value="0" max-length="8" style="height: 22px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 5px; flex-grow: 0; font-size: 12px; display: flex; width: 100px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="WeReceive" style="flex-grow: 1; flex-direction: row; margin-top: 3px; align-items: center; display: none;">
+                        <ui:DropdownField choices="Gold,Manpower" name="ResourceDropdownField" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 20px; width: auto; flex-grow: 1;" />
+                        <ui:DropdownField choices="Gold,Manpower" name="CommanderyDropdownField" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 5px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 20px; width: 140px; display: none;" />
+                        <ui:DropdownField choices="Gold,Manpower" name="WarDropdownField" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 5px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 20px; width: 140px; display: none;" />
+                        <ui:IntegerField value="0" max-length="8" style="height: 22px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 5px; flex-grow: 0; font-size: 12px; display: flex; width: 100px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="WeReceive" style="flex-grow: 1; flex-direction: row; margin-top: 3px; align-items: center; display: none;">
+                        <ui:DropdownField choices="Gold,Manpower" name="ResourceDropdownField" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 20px; width: auto; flex-grow: 1;" />
+                        <ui:DropdownField choices="Gold,Manpower" name="CommanderyDropdownField" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 5px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 20px; width: 140px; display: none;" />
+                        <ui:DropdownField choices="Gold,Manpower" name="WarDropdownField" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 5px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 20px; width: 140px; display: none;" />
+                        <ui:IntegerField value="0" max-length="8" style="height: 22px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 5px; flex-grow: 0; font-size: 12px; display: flex; width: 100px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="WeReceive" style="flex-grow: 1; flex-direction: row; margin-top: 3px; align-items: center; display: none;">
+                        <ui:DropdownField choices="Gold,Manpower" name="ResourceDropdownField" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 20px; width: auto; flex-grow: 1;" />
+                        <ui:DropdownField choices="Gold,Manpower" name="CommanderyDropdownField" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 5px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 20px; width: 140px; display: none;" />
+                        <ui:DropdownField choices="Gold,Manpower" name="WarDropdownField" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 5px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 20px; width: 140px; display: none;" />
+                        <ui:IntegerField value="0" max-length="8" style="height: 22px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 5px; flex-grow: 0; font-size: 12px; display: flex; width: 100px;" />
+                    </ui:VisualElement>
+                    <ui:Button text="+" emoji-fallback-support="true" name="AddRequestButton" style="height: 20px; width: 20px; align-self: center; -unity-font-style: bold; font-size: 16px;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="TheyReceive" style="flex-grow: 0; margin-top: 5px; margin-bottom: 0;">
+                    <ui:Label text="They receive:" style="color: rgb(130, 130, 130); -unity-font-style: bold; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; font-size: 10px;" />
+                    <ui:VisualElement style="flex-grow: 1; flex-direction: row; margin-top: 3px; align-items: center; display: flex;">
+                        <ui:DropdownField choices="Gold,Manpower" name="ResourceDropdownField" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 20px; width: auto; flex-grow: 1;" />
+                        <ui:DropdownField choices="Gold,Manpower" name="CommanderyDropdownField" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 5px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 20px; width: 140px; display: none;" />
+                        <ui:IntegerField value="0" max-length="8" style="height: 22px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 5px; flex-grow: 0; font-size: 12px; width: 100px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-grow: 1; flex-direction: row; margin-top: 3px; align-items: center; display: none;">
+                        <ui:DropdownField choices="Gold,Manpower" name="ResourceDropdownField" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 20px; width: auto; flex-grow: 1;" />
+                        <ui:DropdownField choices="Gold,Manpower" name="CommanderyDropdownField" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 5px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 20px; width: 140px; display: none;" />
+                        <ui:IntegerField value="0" max-length="8" style="height: 22px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 5px; flex-grow: 0; font-size: 12px; width: 100px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-grow: 1; flex-direction: row; margin-top: 3px; align-items: center; display: none;">
+                        <ui:DropdownField choices="Gold,Manpower" name="ResourceDropdownField" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 20px; width: auto; flex-grow: 1;" />
+                        <ui:DropdownField choices="Gold,Manpower" name="CommanderyDropdownField" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 5px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 20px; width: 140px; display: none;" />
+                        <ui:IntegerField value="0" max-length="8" style="height: 22px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 5px; flex-grow: 0; font-size: 12px; width: 100px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-grow: 1; flex-direction: row; margin-top: 3px; align-items: center; display: none;">
+                        <ui:DropdownField choices="Gold,Manpower" name="ResourceDropdownField" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 20px; width: auto; flex-grow: 1;" />
+                        <ui:DropdownField choices="Gold,Manpower" name="CommanderyDropdownField" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 5px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 20px; width: 140px; display: none;" />
+                        <ui:IntegerField value="0" max-length="8" style="height: 22px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 5px; flex-grow: 0; font-size: 12px; width: 100px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-grow: 1; flex-direction: row; margin-top: 3px; align-items: center; display: none;">
+                        <ui:DropdownField choices="Gold,Manpower" name="ResourceDropdownField" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 20px; width: auto; flex-grow: 1;" />
+                        <ui:DropdownField choices="Gold,Manpower" name="CommanderyDropdownField" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 5px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 20px; width: 140px; display: none;" />
+                        <ui:IntegerField value="0" max-length="8" style="height: 22px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 5px; flex-grow: 0; font-size: 12px; width: 100px;" />
+                    </ui:VisualElement>
+                    <ui:Button text="+" emoji-fallback-support="true" name="AddOfferButton" style="height: 20px; width: 20px; align-self: center; -unity-font-style: bold; font-size: 16px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; flex-direction: column; margin-top: 5px;">
+                <ui:VisualElement name="Score" style="flex-grow: 1; flex-direction: row; display: none;">
+                    <ui:Label text="Score" style="padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(255, 255, 255); -unity-font-style: bold; -unity-text-align: middle-left; flex-grow: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; font-size: 11px;" />
+                    <ui:Label text="0" name="ScoreLabel" class="reject" style="padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; flex-grow: 1;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Evaluation" style="flex-grow: 1; flex-direction: row;">
+                    <ui:Label text="Evaluation" style="padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(255, 255, 255); -unity-font-style: bold; -unity-text-align: middle-left; flex-grow: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; font-size: 11px;" />
+                    <ui:Label text="Likely reject" name="EvaluationLabel" class="reject" />
+                </ui:VisualElement>
+                <ui:Button text="Trade" name="ConfirmTradeButton" style="margin-top: 5px; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 21px; flex-grow: 0; width: auto; font-size: 12px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="DeclareWarPanel" class="panel" style="flex-grow: 0; height: 101px; width: 226px; padding-top: 12px; padding-right: 12px; padding-bottom: 12px; padding-left: 12px; display: none; visibility: visible;">
+            <ui:VisualElement style="flex-grow: 0; border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: auto; height: auto; align-self: auto; flex-direction: row-reverse; align-content: auto; align-items: stretch; margin-top: 0; margin-bottom: 5px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-right: 0; margin-left: 0;">
+                <ui:Button text="X" name="CloseButton" style="width: 16px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-text-align: middle-center; font-size: 10px; -unity-font-style: bold; height: 16px;" />
+                <ui:Label text="Declare War on Zhao" name="Title" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-font-style: bold; font-size: 10px; color: rgb(255, 255, 255); flex-grow: 1; -unity-text-align: middle-left; height: 16px;" />
+            </ui:VisualElement>
+            <ui:Label text="You are declaring war on Zhao. Are you sure?" name="Description" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-font-style: normal; font-size: 10px; color: rgb(140, 140, 140); flex-grow: 0; -unity-text-align: upper-left; height: auto; white-space: pre-wrap;" />
+            <ui:Button text="Declare War" name="ConfirmDeclareWar" style="margin-top: 7px; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 21px; flex-grow: 0; width: auto; font-size: 12px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="BreakAlliancePanel" class="panel" style="flex-grow: 0; height: 113px; width: 264px; padding-top: 12px; padding-right: 12px; padding-bottom: 12px; padding-left: 12px; display: none; visibility: visible;">
+            <ui:VisualElement style="flex-grow: 0; border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: auto; height: auto; align-self: auto; flex-direction: row-reverse; align-content: auto; align-items: stretch; margin-top: 0; margin-bottom: 5px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-right: 0; margin-left: 0;">
+                <ui:Button text="X" name="CloseButton" style="width: 16px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-text-align: middle-center; font-size: 10px; -unity-font-style: bold; height: 16px;" />
+                <ui:Label text="Break alliance with Zhao" name="Title" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-font-style: bold; font-size: 10px; color: rgb(255, 255, 255); flex-grow: 1; -unity-text-align: middle-left; height: 16px;" />
+            </ui:VisualElement>
+            <ui:Label text="You are breaking the alliance with Zhao. Your units in their land will be transported back to your country." name="Description" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-font-style: normal; font-size: 10px; color: rgb(140, 140, 140); flex-grow: 0; -unity-text-align: upper-left; height: auto; white-space: pre-wrap;" />
+            <ui:Button text="Break alliance" name="ConfirmBreakAlliance" style="margin-top: 7px; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 21px; flex-grow: 0; width: auto; font-size: 12px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="CallToArmsPanel" class="panel" style="flex-grow: 0; height: 189px; width: 264px; padding-top: 12px; padding-right: 12px; padding-bottom: 12px; padding-left: 12px; display: none; visibility: visible;">
+            <ui:VisualElement style="flex-grow: 0; border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: auto; height: auto; align-self: auto; flex-direction: row-reverse; align-content: auto; align-items: stretch; margin-top: 0; margin-bottom: 5px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-right: 0; margin-left: 0;">
+                <ui:Button text="X" name="CloseButton" style="width: 16px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-text-align: middle-center; font-size: 10px; -unity-font-style: bold; height: 16px;" />
+                <ui:Label text="Call to Arms" name="Title" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-font-style: bold; font-size: 10px; color: rgb(255, 255, 255); flex-grow: 1; -unity-text-align: middle-left; height: 16px;" />
+            </ui:VisualElement>
+            <ui:Label text="You are calling Zhao to fight alongside us. Are you sure?" name="Description" style="margin-top: 0; margin-right: 0; margin-bottom: 5px; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-font-style: normal; font-size: 10px; color: rgb(140, 140, 140); flex-grow: 0; -unity-text-align: upper-left; height: auto; white-space: pre-wrap;" />
+            <ui:VisualElement name="War" style="flex-grow: 0; margin-top: 5px; margin-bottom: 0;">
+                <ui:Label text="War" style="color: rgb(255, 255, 255); -unity-font-style: bold; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; font-size: 10px;" />
+                <ui:VisualElement name="WeReceive" style="flex-grow: 1; flex-direction: row; margin-top: 3px; align-items: center;">
+                    <ui:DropdownField choices="Gold,Manpower" name="WarDropdownField" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 20px; width: auto; flex-grow: 1;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Compensation" style="flex-grow: 0; margin-top: 5px; margin-bottom: 0;">
+                <ui:Label text="Compensation" style="color: rgb(255, 255, 255); -unity-font-style: bold; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; font-size: 10px;" />
+                <ui:VisualElement name="WeReceive" style="flex-grow: 1; flex-direction: row; margin-top: 3px; align-items: center;">
+                    <ui:DropdownField choices="Gold,Manpower" name="WarDropdownField" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 20px; width: auto; flex-grow: 1;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:Button text="Call to arms" name="CallToArmsButton" style="margin-top: 7px; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 21px; flex-grow: 0; width: auto; font-size: 12px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,12 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Button style="height: 65px; flex-grow: 0; right: auto;">
+        <ui:VisualElement style="flex-grow: 1; flex-direction: row;">
+            <ui:VisualElement name="VisualElement" style="flex-grow: 1;">
+                <ui:Label text="Battle of Sanchuan" name="BattleName" style="-unity-text-align: upper-left; flex-grow: 0; font-size: 12px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(0, 0, 0); -unity-font-style: bold; white-space: pre-wrap;" />
+                <ui:Label text="Attacker losses: 12345" name="AttackerLossesLabel" style="-unity-text-align: upper-left; flex-grow: 0; font-size: 11px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(0, 0, 0); -unity-font-style: normal; height: 13px;" />
+                <ui:Label text="Defender losses: 12345" name="DefenderLossesLabel" style="-unity-text-align: upper-left; flex-grow: 0; font-size: 11px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(0, 0, 0); -unity-font-style: normal;" />
+            </ui:VisualElement>
+            <ui:Button text="Sieging" name="AssaultButton" style="background-color: rgb(205, 133, 63); background-image: none; -unity-background-image-tint-color: rgb(160, 82, 45); -unity-font-style: bold;" />
+        </ui:VisualElement>
+    </ui:Button>
+</ui:UXML>

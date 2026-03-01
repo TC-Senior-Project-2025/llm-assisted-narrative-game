@@ -1,0 +1,9 @@
+/* Style the dropdown menu container */
+.unity-base-dropdown__container-inner {
+    font-size: 11px;
+}
+
+.unity-scroll-view {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}

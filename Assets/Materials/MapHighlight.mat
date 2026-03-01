@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MapHighlight
+  m_Shader: {fileID: 4800000, guid: 8828bc40077444e43b71a7aa4a14f1c3, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AdjacentTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CountryTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FogOfWarTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OccupationTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ProvinceIdTex:
+        m_Texture: {fileID: 2800000, guid: 9ea1235dc290f5e46b0b57541b3149c4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AdjacentEnabled: 0
+    - _AdjacentStrength: 0.25
+    - _CountryBorderThickness: 1.86
+    - _EnableExternalAlpha: 0
+    - _FogOfWarEnabled: 1
+    - _FogOfWarStrength: 0.9
+    - _HoverEnabled: 1
+    - _HoverOutlineThickness: 2.41
+    - _HoverTintStrength: 0.1
+    - _OwnerColorStrength: 1
+    - _SelectEnabled: 1
+    - _SelectOutlineThickness: 4
+    - _ZWrite: 0
+    m_Colors:
+    - _AdjacentTint: {r: 0.58611584, g: 1, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _CountryBorderColor: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 1}
+    - _FogOfWarTint: {r: 0, g: 0, b: 0, a: 1}
+    - _HoverKey: {r: 0.3529412, g: 0.7490196, b: 0.1215686, a: 1}
+    - _HoverOutlineColor: {r: 1, g: 1, b: 0, a: 1}
+    - _HoverTint: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SelectKey: {r: 0.3529412, g: 0.7490196, b: 0.12156863, a: 1}
+    - _SelectOutlineColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

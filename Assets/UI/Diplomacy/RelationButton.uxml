@@ -1,0 +1,11 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Button text="&#10;" name="RelationButton" style="-unity-text-align: middle-left; height: 29px; margin-top: 0; margin-right: 0; margin-bottom: 3px; margin-left: 0; padding-top: 4px; padding-right: 4px; padding-bottom: 4px; padding-left: 4px; flex-direction: row;">
+        <ui:Label text="Han" name="CountryNameLabel" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 5px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-grow: 1; font-size: 12px; -unity-font-style: bold;" />
+        <ui:VisualElement name="Incoming" style="flex-grow: 0; background-color: rgb(99, 99, 99); left: auto; width: 45px; flex-shrink: 1; margin-right: 5px; border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px;">
+            <ui:Label text="+10" name="IncomingLabel" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-grow: 1; color: rgb(255, 255, 255); -unity-text-align: middle-center; width: auto; font-size: 12px; -unity-font-style: bold;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Outgoing" style="flex-grow: 0; background-color: rgb(99, 99, 99); left: auto; width: 45px; flex-shrink: 1; border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px;">
+            <ui:Label text="+10" name="OutgoingLabel" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-grow: 1; color: rgb(255, 255, 255); -unity-text-align: middle-center; width: auto; font-size: 12px; -unity-font-style: bold; border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px;" />
+        </ui:VisualElement>
+    </ui:Button>
+</ui:UXML>
